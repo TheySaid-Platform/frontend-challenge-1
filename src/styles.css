@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* You can add global styles to this file, and also import other style files */
+
+
+body {
+    font-family: monospace;
+}
+
+.addItemBtn:hover .addItemIcon {
+    transition: transform 0.3s;
+    transform: rotate(90deg);
+}
+
