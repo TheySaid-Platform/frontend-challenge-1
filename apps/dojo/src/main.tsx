@@ -19,12 +19,16 @@ import '@fontsource/poppins/800.css';
 import '@fontsource/poppins/900.css';
 
 import App from './app/app';
+import { RecoilRoot } from 'recoil';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
   <StrictMode>
-    <App />
+    <RecoilRoot>
+      <App />
+    </RecoilRoot>
   </StrictMode>
 );

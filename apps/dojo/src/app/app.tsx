@@ -1,27 +1,44 @@
-import logoOnly from './../assets/images/logoOnly.png';
+import { useRecoilValue } from 'recoil';
+import WelcomePage from './components/WelcomePage';
+
+import { visibleStateAtom } from './recoil/atoms/visibleAtom';
+import { Header } from './components/Header';
 
 export function App() {
+  const visible = useRecoilValue(visibleStateAtom);
+
+  let show;
+
+  if (!visible) {
+    show = 'flex';
+  } else {
+    show = 'none';
+  }
+
   return (
-    <div className="container mx-auto px-4 welcome-page">
-      <img src={logoOnly} alt="Official Logo of Dojo" />
-      <h1 className="heading text-4xl">
-        Welcome to <span className="text-accent">DOJO</span>
-      </h1>
-      <p className="text-[18px] font-[400]">Your productivity partner.</p>
-      <button className="btn welcome-btn">Let's Start</button>
-      <p className="text-center">
-        Created by <b>Harshil Khimasia - Freelance Web Developer&trade;</b>. For
-        more information, visit our{' '}
-        <a
-          href="https://harshilkhimasia.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="highlighted-link"
-        >
-          official website
-        </a>
-        .
-      </p>
+    <div className="container mx-auto px-4">
+      <WelcomePage />
+      <Header />
+      <div className="welcome-page" style={{ display: `${show}` }}>
+        <h1 className="heading text-4xl">
+          <span className="text-accent">To-Do</span>
+        </h1>
+
+        <button className="btn welcome-btn">Add</button>
+        <p className="text-center">
+          Created by <b>Harshil Khimasia - Freelance Web Developer&trade;</b>.
+          For more information, visit our{' '}
+          <a
+            href="https://harshilkhimasia.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="highlighted-link"
+          >
+            official website
+          </a>
+          .
+        </p>
+      </div>
     </div>
   );
 }
