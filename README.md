@@ -1,3 +1,4 @@
+theme: jekyll-theme-minima
 # Achieva Pro Suite Org
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue)
