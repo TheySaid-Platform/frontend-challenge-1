@@ -1,6 +1,6 @@
 # Achieva Pro Suite Org
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8020589-4dbe-44e6-a5eb-21d4e64bc351/deploy-status)](https://app.netlify.com/sites/achieva-dojo/deploys)![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue)
 
 Welcome to the Achieva Pro Suite Org NX Workspace!
 
