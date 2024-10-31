@@ -7,7 +7,14 @@ interface Todo {
     isComplete: boolean;
     id: string;
   }
-export const todoListAtom = atom<Todo[]>({
-  key: 'todoListState', // unique ID (with respect to other atoms/selectors)
-  default: [] // default value (aka initial value)
-});
+  const loadTodosFromLocalStorage = (): Todo[] => {
+    const savedTodos = localStorage.getItem('items');
+    return savedTodos ? JSON.parse(savedTodos) : [];
+  };
+  
+  export const todoListAtom = atom<Todo[]>({
+    key: 'todoListState', // Unique ID
+    default: loadTodosFromLocalStorage(), // Load initial state from local storage
+  });
+
+

@@ -191,3 +191,51 @@ body {
   margin: auto;
   display: block;
 }
+
+.checkbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.checkbox {
+  opacity: 0; /* Hide the default checkbox */
+  width: 0px;
+}
+
+.checkbox-label {
+  width: 50px;
+  height: 50px;
+  background-color: #ccc;
+  border-radius: 50%; /* Circle shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden; /* Hide the tick mark when unchecked */
+  transition: background-color 0.3s;
+}
+
+.checkmark {
+  stroke: white;
+  stroke-width: 2;
+  stroke-dasharray: 60; /* Length of the path */
+  stroke-dashoffset: 60; /* Hide the path */
+  fill: none;
+  transition: stroke-dashoffset 0.4s, opacity 0.2s;
+  width: 24px; /* Size of the checkmark */
+  height: 24px;
+}
+
+.checkbox:checked + .checkbox-label {
+  background-color: #4caf50; /* Green color when checked */
+}
+
+.checkbox:checked + .checkbox-label .checkmark {
+  stroke-dashoffset: 0; /* Show the checkmark */
+  opacity: 1; /* Ensure checkmark is visible */
+}

@@ -8,7 +8,7 @@ import todoIcon from './../assets/images/todo-icon.png';
 import { todoListAtom } from './recoil/atoms/todoListAtom';
 import { modalVisibleAtom } from './recoil/atoms/modalVisibleAtom';
 import TodoItemCreator from './components/TodoItemCreator';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export function App() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -16,9 +16,9 @@ export function App() {
   const openModal = () => {
     setModalVisible((prevState) => !prevState);
   };
-  const visible = useRecoilValue(visibleStateAtom);
+  const [visible, setVisible] = useRecoilState(visibleStateAtom);
 
-  const todoList = useRecoilValue(todoListAtom);
+  const [todoList, setTodoList] = useRecoilState(todoListAtom);
 
   const [showAll, setShowAll] = useState(false);
   const toggleShowAll = () => setShowAll((prev) => !prev);
@@ -30,6 +30,30 @@ export function App() {
   } else {
     show = 'none';
   }
+
+  // const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    localStorage.setItem('items', JSON.stringify(todoList));
+
+    if (todoList.length > 0) {
+      setVisible(false);
+    }
+  }, [todoList, setVisible]);
+
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleCheckboxChange = (id: string) => {
+    setTodoList((prevList) =>
+      prevList.map((item) =>
+        item.id === id ? { ...item, isComplete: !item.isComplete } : item
+      )
+    );
+  };
+
+  const handleDelete = (id: string) => {
+    setTodoList((prevList) => prevList.filter((el) => el.id !== id));
+  };
 
   return (
     <div className="container mx-auto px-4">
@@ -75,34 +99,69 @@ export function App() {
               <ul>
                 {(showAll ? todoList : todoList.slice(0, 4)).map((el) => (
                   <li
-                    className="border-solid border-[1.5px] border-slate-300 rounded-xl p-6 mb-2"
+                    className="border-solid border-[1.5px] border-slate-300 rounded-xl p-6 ps-0 mb-2 grid grid-cols-9"
                     key={el.id}
                   >
-                    <div>
-                      <h4 className="text-xl font-[500] mb-2">
-                        Title: {el.title}
-                      </h4>
+                    <div className="checkbox-container">
+                      <input
+                        type="checkbox"
+                        id={`checkbox-${el.id}`} // Unique ID for each checkbox
+                        className="checkbox"
+                        checked={el.isComplete}
+                        onChange={() => handleCheckboxChange(el.id)} // Pass the id
+                      />
+                      <label
+                        htmlFor={`checkbox-${el.id}`}
+                        className="checkbox-label"
+                      >
+                        <svg className="checkmark" viewBox="0 0 24 24">
+                          <path d="M6 12l4 4L18 6" />
+                        </svg>
+                      </label>
                     </div>
-                    {el.description ? (
-                      <div>
-                        <p>Description: {el.description}</p>
-                      </div>
-                    ) : (
-                      <span></span>
-                    )}
 
-                    {el.dueDate ? (
+                    <div className="col-span-8">
                       <div>
-                        <p>Due by: {el.dueDate}</p>
+                        <h4 className="text-xl font-[500] mb-2">
+                          Title: {el.title}
+                        </h4>
+                        <div>
+                          <label htmlFor="checkbox">Check me!</label>
+                          <p>{`Checkbox is ${
+                            isChecked ? 'checked' : 'unchecked'
+                          }`}</p>
+                        </div>
                       </div>
-                    ) : (
-                      <span></span>
-                    )}
-                    <div>
-                      <p>Id: {el.id}</p>
-                    </div>
-                    <div>
-                      <p>Status: {el.isComplete ? 'Done' : 'Pending'}</p>
+                      {el.description ? (
+                        <div>
+                          <p>Description: {el.description}</p>
+                        </div>
+                      ) : (
+                        <span></span>
+                      )}
+
+                      {el.dueDate ? (
+                        <div>
+                          <p>Due by: {el.dueDate}</p>
+                        </div>
+                      ) : (
+                        <span></span>
+                      )}
+                      <div>
+                        <p>Id: {el.id}</p>
+                      </div>
+                      <div>
+                        <p>Status: {el.isComplete ? 'Done' : 'Pending'}</p>
+                      </div>
+                      <div>
+                        <button
+                          type="button"
+                          onClick={() => handleDelete(el.id)}
+                          className="text-red-600 hover:underline"
+                        >
+                          Delete
+                        </button>
+                      </div>
                     </div>
                   </li>
                 ))}
