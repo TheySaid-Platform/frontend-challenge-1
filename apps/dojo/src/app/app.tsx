@@ -14,6 +14,7 @@ import deleteIcon from './../assets/images/delete.svg';
 export function App() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [_, setModalVisible] = useRecoilState(modalVisibleAtom);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   const openModal = () => {
     setModalVisible((prevState) => !prevState);
@@ -73,8 +74,8 @@ export function App() {
             you need to refer back to them.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-4">
-          <div className="col-span-2">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div className="lg:col-span-2">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-[500]">To-dos</h2>
               <div className="flex items-center">
@@ -106,7 +107,7 @@ export function App() {
               <ul>
                 {(showAll ? todoList : todoList.slice(0, 4)).map((el) => (
                   <li
-                    className="border-solid border-[1.5px] border-slate-300 rounded-xl p-6 ps-0 mb-2 grid grid-cols-9"
+                    className="border-solid border-[1.5px] border-slate-300 rounded-xl p-6 ps-0 mb-2 grid grid-cols-4 lg:grid-cols-9"
                     key={el.id}
                   >
                     <div className="checkbox-container">
@@ -119,7 +120,7 @@ export function App() {
                       />
                       <label
                         htmlFor={`checkbox-${el.id}`}
-                        className="checkbox-label"
+                        className="checkbox-label w-[40px] h-[40px] lg:w-[60px] lg:h-[60px]"
                       >
                         <svg className="checkmark" viewBox="0 0 24 24">
                           <path d="M6 12l4 4L18 6" />
@@ -127,7 +128,7 @@ export function App() {
                       </label>
                     </div>
 
-                    <div className="col-span-7 flex justify-center flex-col">
+                    <div className="col-span-2 lg:col-span-7 flex justify-center flex-col">
                       <div>
                         <h4
                           className={`text-xl font-[500] ${
@@ -139,7 +140,20 @@ export function App() {
                       </div>
                       {el.description ? (
                         <div>
-                          <p>{el.description}</p>
+                          <p>
+                            {isExpanded || el.description.length <= 60
+                              ? el.description
+                              : `${el.description.substring(0, 60)}...`}
+                            {el.description.length > 60 && (
+                              <span
+                                onClick={() => setIsExpanded(!isExpanded)}
+                                className="read-more"
+                                style={{ color: 'blue', cursor: 'pointer' }}
+                              >
+                                {isExpanded ? ' Show less' : ' Read more'}
+                              </span>
+                            )}
+                          </p>
                         </div>
                       ) : (
                         <span className="hidden"></span>

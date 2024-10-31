@@ -36,7 +36,7 @@ export function WelcomePage() {
           alignItems: 'center',
         }}
       >
-        <h1 className="heading text-4xl">
+        <h1 className="heading text-4xl text-center">
           Welcome to <span className="text-accent">DOJO</span>
         </h1>
         <p className="text-[18px] font-[400]">Your productivity partner.</p>

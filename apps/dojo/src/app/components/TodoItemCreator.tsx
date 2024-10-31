@@ -71,7 +71,7 @@ export function TodoItemCreator() {
   };
   return (
     <div className={`modalOverlay ${modalVisible ? 'block' : 'hidden'}`}>
-      <div className="todoModal p-10">
+      <div className="todoModal p-10 w-full lg:w-[550px]">
         <h2 className="pb-1 mb-7 text-[32px] border-b-[1px] border-black inline-block">
           Add To-do
         </h2>
