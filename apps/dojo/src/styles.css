@@ -113,7 +113,7 @@ body {
 }
 
 .after-img {
-  transform: scale(1.8) translate(0px, 20%);
+  transform: scale(1.3) translate(0px, 50%);
   transition: all 0.5s ease-in;
 }
 
@@ -199,8 +199,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  align-content: center;
-  justify-content: center;
+  align-content: flex-start;
+  margin-top: 15px;
+  justify-content: flex-start;
 }
 
 .checkbox {
@@ -209,7 +210,8 @@ body {
 }
 
 .checkbox-label {
-  background-color: #cccccc2e;
+  background-color: #cccccc99;
+
   border-radius: 50%; /* Circle shape */
   display: flex;
   justify-content: center;
@@ -273,8 +275,43 @@ body {
   transform: rotate(45deg); /* Rotates the plus sign */
 }
 
-@media only screen and (max-width: 600px) {
+.gridLi {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.deletCol {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+@media only screen and (min-width: 640px) {
   .after-img {
-    transform: scale(1.3) translate(0px, 60%);
+    transform: scale(1.8) translate(0px, 20%);
+  }
+  .gridLi {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+  }
+  .checkbox-container {
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .deletCol {
+    position: relative;
+    bottom: unset;
+    right: unset;
+  }
+  .checkbox-label {
+    background-color: #cccccc2e;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .checkbox-container {
+    justify-content: flex-start;
+    margin-top: 0;
   }
 }

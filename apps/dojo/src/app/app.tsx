@@ -8,13 +8,20 @@ import todoIcon from './../assets/images/todo-icon.png';
 import { todoListAtom } from './recoil/atoms/todoListAtom';
 import { modalVisibleAtom } from './recoil/atoms/modalVisibleAtom';
 import TodoItemCreator from './components/TodoItemCreator';
-import { useEffect, useState } from 'react';
+import { SetStateAction, useEffect, useState } from 'react';
 import deleteIcon from './../assets/images/delete.svg';
 
 export function App() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [_, setModalVisible] = useRecoilState(modalVisibleAtom);
-  const [isExpanded, setIsExpanded] = useState(false);
+
+  const [completedData, setCompletedData] = useState('');
+
+  const [expandedId, setExpandedId] = useState<string | null>(null);
+
+  const toggleExpand = (id: string) => {
+    setExpandedId(expandedId === id ? null : id);
+  };
 
   const openModal = () => {
     setModalVisible((prevState) => !prevState);
@@ -47,10 +54,24 @@ export function App() {
   const [isChecked, setIsChecked] = useState(false);
 
   const handleCheckboxChange = (id: string) => {
+    const currentDate = new Date();
+    const options: Intl.DateTimeFormatOptions = {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    }; // Correctly typed options
+    const textDate = currentDate.toLocaleString('en-US', options);
     setTodoList((prevList) =>
-      prevList.map((item) =>
-        item.id === id ? { ...item, isComplete: !item.isComplete } : item
-      )
+      prevList.map((item) => {
+        if (item.id === id) {
+          return {
+            ...item,
+            isComplete: !item.isComplete,
+            completedDate: item.isComplete ? undefined : textDate, // Set date if completing the task
+          };
+        }
+        return item; // Return the item unchanged if the id does not match
+      })
     );
   };
 
@@ -107,10 +128,10 @@ export function App() {
               <ul>
                 {(showAll ? todoList : todoList.slice(0, 4)).map((el) => (
                   <li
-                    className="border-solid border-[1.5px] border-slate-300 rounded-xl p-6 ps-0 mb-2 grid grid-cols-4 lg:grid-cols-9"
+                    className="relative border-solid border-[1.5px] border-slate-300 rounded-xl p-6 lg:ps-0 mb-2 gridLi"
                     key={el.id}
                   >
-                    <div className="checkbox-container">
+                    <div className="checkbox-container order-2 md:order-1">
                       <input
                         type="checkbox"
                         id={`checkbox-${el.id}`} // Unique ID for each checkbox
@@ -120,15 +141,22 @@ export function App() {
                       />
                       <label
                         htmlFor={`checkbox-${el.id}`}
-                        className="checkbox-label w-[40px] h-[40px] lg:w-[60px] lg:h-[60px]"
+                        className="checkbox-label w-[40px] h-[40px] md:w-[60px] md:h-[60px]"
                       >
                         <svg className="checkmark" viewBox="0 0 24 24">
                           <path d="M6 12l4 4L18 6" />
                         </svg>
                       </label>
+                      <p className="ms-2.5 block md:hidden">
+                        {el.isComplete
+                          ? `Completed on ${el.completedDate}`
+                          : el.dueDate
+                          ? `Due by: ${el.dueDate}`
+                          : ``}
+                      </p>
                     </div>
 
-                    <div className="col-span-2 lg:col-span-7 flex justify-center flex-col">
+                    <div className="flex justify-center flex-col order-1 md:order-2">
                       <div>
                         <h4
                           className={`text-xl font-[500] ${
@@ -139,18 +167,21 @@ export function App() {
                         </h4>
                       </div>
                       {el.description ? (
-                        <div>
+                        <div key={el.id}>
                           <p>
-                            {isExpanded || el.description.length <= 60
+                            {expandedId === el.id ||
+                            el.description.length <= 160
                               ? el.description
-                              : `${el.description.substring(0, 60)}...`}
-                            {el.description.length > 60 && (
+                              : `${el.description.substring(0, 160)}...`}
+                            {el.description.length > 160 && (
                               <span
-                                onClick={() => setIsExpanded(!isExpanded)}
+                                onClick={() => toggleExpand(el.id)}
                                 className="read-more"
                                 style={{ color: 'blue', cursor: 'pointer' }}
                               >
-                                {isExpanded ? ' Show less' : ' Read more'}
+                                {expandedId === el.id
+                                  ? ' Show less'
+                                  : ' Read more'}
                               </span>
                             )}
                           </p>
@@ -170,8 +201,15 @@ export function App() {
                       {/* <div>
                         <p>Status: {el.isComplete ? 'Done' : 'Pending'}</p>
                       </div> */}
+                      <p className="mt-2.5 hidden md:block">
+                        {el.isComplete
+                          ? `Completed on ${el.completedDate}`
+                          : el.dueDate
+                          ? `Due by: ${el.dueDate}`
+                          : ``}
+                      </p>
                     </div>
-                    <div>
+                    <div className="order-3 md:order-3 deletCol">
                       <button
                         type="button"
                         onClick={() => handleDelete(el.id)}

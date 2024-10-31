@@ -6,6 +6,7 @@ interface Todo {
     description: string | undefined;
     isComplete: boolean;
     id: string;
+    completedDate?: string; // Optional completed date
   }
   const loadTodosFromLocalStorage = (): Todo[] => {
     const savedTodos = localStorage.getItem('items');
