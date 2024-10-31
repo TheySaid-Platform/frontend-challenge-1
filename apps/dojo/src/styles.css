@@ -55,6 +55,10 @@ body {
   @apply text-white bg-[var(--accentColor)] font-bold px-4 py-2 rounded text-center;
   transition: background-color 0.3s ease;
 }
+.outline-btn {
+  @apply text-[#4e4e4e] bg-transparent font-bold px-4 py-2 rounded text-center;
+  transition: background-color 0.3s ease;
+}
 .btn:hover {
   @apply bg-[var(--secondaryColor)];
 }
@@ -156,4 +160,34 @@ body {
   position: fixed;
   top: 20px;
   left: 20px;
+}
+
+.todoModal {
+  width: 550px;
+  background-color: #fff;
+  border-radius: 12px;
+  height: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.modalOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #cccccc82;
+  top: 0;
+  left: 0;
+  overflow: overlay;
+}
+
+.okayButton {
+  background: aqua;
+  padding: 10px 40px;
+  margin: auto;
+  display: block;
 }
