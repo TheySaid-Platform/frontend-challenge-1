@@ -85,10 +85,18 @@ export function TodoItemCreator() {
               type="text"
               name="title"
               id="title"
+              maxLength={60}
               value={inputValue}
               onChange={onChange}
               className="border-solid border-[1.5px] border-slate-300 rounded-xl w-full p-2"
             />
+            <p
+              className={`flex justify-end ${
+                inputValue.length > 0 ? 'visible' : 'invisible'
+              }`}
+            >
+              {60 - inputValue.length} characters remaining
+            </p>
           </div>
           <div className="mb-5">
             <label htmlFor="dueDate" className="text-[22px]">
@@ -100,6 +108,7 @@ export function TodoItemCreator() {
               name="dueDate"
               value={inputDateValues}
               onChange={handleDateChange}
+              onFocus={(e) => e.target.showPicker()}
               id="dueDate"
               className="border-solid border-[1.5px] border-slate-300 rounded-xl w-full p-2"
             />
@@ -115,8 +124,16 @@ export function TodoItemCreator() {
               id="description"
               value={inputDescriptionValue}
               onChange={onDescriptionChange}
+              maxLength={500}
               className="border-solid border-[1.5px] border-slate-300 rounded-xl w-full p-2 min-h-[150px] resize-none focus:outline-none focus:border-black focus:border-[2px]"
             ></textarea>
+            <p
+              className={`flex justify-end ${
+                inputDescriptionValue.length > 0 ? 'visible' : 'invisible'
+              }`}
+            >
+              {500 - inputDescriptionValue.length} characters remaining
+            </p>
           </div>
         </div>
         <button type="button" className="btn float-end" onClick={openModal}>

@@ -9,10 +9,12 @@ import { todoListAtom } from './recoil/atoms/todoListAtom';
 import { modalVisibleAtom } from './recoil/atoms/modalVisibleAtom';
 import TodoItemCreator from './components/TodoItemCreator';
 import { useEffect, useState } from 'react';
+import deleteIcon from './../assets/images/delete.svg';
 
 export function App() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [_, setModalVisible] = useRecoilState(modalVisibleAtom);
+
   const openModal = () => {
     setModalVisible((prevState) => !prevState);
   };
@@ -77,7 +79,12 @@ export function App() {
               <h2 className="text-2xl font-[500]">To-dos</h2>
               <div className="flex items-center">
                 <button type="button" onClick={openModal}>
-                  <img src={addButton} alt="add button" width={40} />
+                  {/* <img src={addButton} alt="add button" width={40} /> */}
+                  <div className="add-button">
+                    <span className="plus">
+                      <img src={addButton} alt="add button" width={28} />
+                    </span>
+                  </div>
                 </button>
               </div>
             </div>
@@ -120,48 +127,44 @@ export function App() {
                       </label>
                     </div>
 
-                    <div className="col-span-8">
+                    <div className="col-span-7 flex justify-center flex-col">
                       <div>
-                        <h4 className="text-xl font-[500] mb-2">
-                          Title: {el.title}
+                        <h4
+                          className={`text-xl font-[500] ${
+                            el.description ? 'mb-2' : 'mb-0'
+                          }`}
+                        >
+                          {el.title}
                         </h4>
-                        <div>
-                          <label htmlFor="checkbox">Check me!</label>
-                          <p>{`Checkbox is ${
-                            isChecked ? 'checked' : 'unchecked'
-                          }`}</p>
-                        </div>
                       </div>
                       {el.description ? (
                         <div>
-                          <p>Description: {el.description}</p>
+                          <p>{el.description}</p>
                         </div>
                       ) : (
-                        <span></span>
+                        <span className="hidden"></span>
                       )}
 
-                      {el.dueDate ? (
+                      {/* {el.dueDate ? (
                         <div>
                           <p>Due by: {el.dueDate}</p>
                         </div>
                       ) : (
                         <span></span>
-                      )}
-                      <div>
-                        <p>Id: {el.id}</p>
-                      </div>
-                      <div>
+                      )} */}
+
+                      {/* <div>
                         <p>Status: {el.isComplete ? 'Done' : 'Pending'}</p>
-                      </div>
-                      <div>
-                        <button
-                          type="button"
-                          onClick={() => handleDelete(el.id)}
-                          className="text-red-600 hover:underline"
-                        >
-                          Delete
-                        </button>
-                      </div>
+                      </div> */}
+                    </div>
+                    <div>
+                      <button
+                        type="button"
+                        onClick={() => handleDelete(el.id)}
+                        className="text-red-600 hover:underline float-end"
+                      >
+                        <img src={deleteIcon} alt="deleteIcon" />
+                      </button>
                     </div>
                   </li>
                 ))}

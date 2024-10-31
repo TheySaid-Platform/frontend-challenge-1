@@ -5,8 +5,8 @@
 /* Root color variables */
 :root {
   --primaryColor: #2f4f4f; /* Dark Slate Gray */
-  --secondaryColor: #e03e00; /* Lime Green */
-  --accentColor: #ff4500; /* Sunset Orange */
+  --secondaryColor: #507575; /* Lime Green */
+  --accentColor: #2f4f4f; /* Sunset Orange */
   --textColor: #333333; /* Charcoal Black */
   --backgroundColor: #f5f5f5; /* Light Gray */
 }
@@ -67,15 +67,16 @@ body {
   @apply text-[var(--accentColor)] font-bold;
   text-decoration: underline;
   text-underline-offset: 2px;
-  text-decoration-color: #ff44005d;
-  -webkit-text-decoration-color: #ff44005d; /* Safari */
-  text-decoration-color: #ff44005d;
+  text-decoration-color: #50757547;
+  --webkit-text-decoration-color: #50757547; /* Safari */
+
   transition: all 0.3s ease;
 }
 
 .highlighted-link:hover {
   @apply text-[var(--accentColor)];
   text-decoration-color: var(--accentColor);
+  --webkit-text-decoration-color: var(--accentColor); /* Safari */
   text-decoration: underline;
 }
 
@@ -153,7 +154,7 @@ body {
 }
 
 .nav-list.active {
-  background-color: var(--accentColor);
+  background-color: var(--secondaryColor);
 }
 
 .navButton {
@@ -183,6 +184,7 @@ body {
   top: 0;
   left: 0;
   overflow: overlay;
+  z-index: 99999;
 }
 
 .okayButton {
@@ -207,9 +209,9 @@ body {
 }
 
 .checkbox-label {
-  width: 50px;
-  height: 50px;
-  background-color: #ccc;
+  width: 60px;
+  height: 60px;
+  background-color: #cccccc2e;
   border-radius: 50%; /* Circle shape */
   display: flex;
   justify-content: center;
@@ -227,8 +229,8 @@ body {
   stroke-dashoffset: 60; /* Hide the path */
   fill: none;
   transition: stroke-dashoffset 0.4s, opacity 0.2s;
-  width: 24px; /* Size of the checkmark */
-  height: 24px;
+  width: 44px;
+  height: 44px;
 }
 
 .checkbox:checked + .checkbox-label {
@@ -238,4 +240,37 @@ body {
 .checkbox:checked + .checkbox-label .checkmark {
   stroke-dashoffset: 0; /* Show the checkmark */
   opacity: 1; /* Ensure checkmark is visible */
+}
+
+.add-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #000; /* Initial background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Plus Sign Style */
+.plus {
+  font-size: 24px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Animation */
+.add-button:hover {
+  transform: scale(1.1); /* Slightly enlarges the button */
+  background-color: #507575; /* Change background color */
+  box-shadow: 0 8px 16px rgb(0 10 0 / 31%); /* Add glow effect */
+}
+
+/* Rotate the Plus Sign */
+.add-button:hover .plus {
+  transform: rotate(45deg); /* Rotates the plus sign */
 }
