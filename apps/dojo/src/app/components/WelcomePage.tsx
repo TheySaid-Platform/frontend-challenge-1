@@ -13,13 +13,13 @@ export function WelcomePage() {
     show = 'none';
   }
   const defClass = 'def-welcome';
-  const defImage = 'def-img';
+  const defImage = 'def-img mainImg';
   const [defWelcome, setDefWelcome] = useState(defClass);
   const [defImg, setDefImg] = useState(defImage);
   const changeVisible = (): void => {
     const afterClass = 'after-welcome';
     setDefWelcome((prevState) => (prevState = afterClass));
-    const afterImage = 'after-img';
+    const afterImage = 'after-img mainImg';
     setDefImg((prevState) => (prevState = afterImage));
     setTimeout(() => {
       setVisible((prevState) => !prevState);

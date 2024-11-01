@@ -10,6 +10,8 @@ import { modalVisibleAtom } from './recoil/atoms/modalVisibleAtom';
 import TodoItemCreator from './components/TodoItemCreator';
 import { SetStateAction, useEffect, useState } from 'react';
 import deleteIcon from './../assets/images/delete.svg';
+import arrowUp from './../assets/images/arrowUp.svg';
+import arrowDown from './../assets/images/arrow-down.svg';
 
 export function App() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -29,9 +31,16 @@ export function App() {
   const [visible, setVisible] = useRecoilState(visibleStateAtom);
 
   const [todoList, setTodoList] = useRecoilState(todoListAtom);
+  console.log(todoList);
+  const completedTodoArr = todoList.filter((el) => el.isComplete);
+  const pendingTodoArr = todoList.filter((el) => !el.isComplete);
+  console.log(completedTodoArr, 'completedTodoArr');
+  console.log(pendingTodoArr, 'pendingTodoArr');
 
   const [showAll, setShowAll] = useState(false);
+  const [completedShowAll, setCompletedShowAll] = useState(false);
   const toggleShowAll = () => setShowAll((prev) => !prev);
+  const toggleCompletedShowAll = () => setCompletedShowAll((prev) => !prev);
 
   let show;
 
@@ -118,79 +127,81 @@ export function App() {
                   </div>
                   <div className="pb-8">
                     <p>
-                      You’re all caught up, but we’ll keep your completed to-dos
-                      in case you need to refer back to them.
+                      It looks like you don’t have any tasks added yet. Start by
+                      adding your first to-do!
                     </p>
                   </div>
                 </div>
               </div>
             ) : (
-              <ul>
-                {(showAll ? todoList : todoList.slice(0, 4)).map((el) => (
-                  <li
-                    className="relative border-solid border-[1.5px] border-slate-300 rounded-xl p-6 lg:ps-0 mb-2 gridLi"
-                    key={el.id}
-                  >
-                    <div className="checkbox-container order-2 md:order-1">
-                      <input
-                        type="checkbox"
-                        id={`checkbox-${el.id}`} // Unique ID for each checkbox
-                        className="checkbox"
-                        checked={el.isComplete}
-                        onChange={() => handleCheckboxChange(el.id)} // Pass the id
-                      />
-                      <label
-                        htmlFor={`checkbox-${el.id}`}
-                        className="checkbox-label w-[40px] h-[40px] md:w-[60px] md:h-[60px]"
+              <>
+                <ul>
+                  {(showAll ? pendingTodoArr : pendingTodoArr.slice(0, 4)).map(
+                    (el) => (
+                      <li
+                        className="relative border-solid border-[1.5px] border-slate-300 rounded-xl p-6 lg:ps-0 mb-2 gridLi"
+                        key={el.id}
                       >
-                        <svg className="checkmark" viewBox="0 0 24 24">
-                          <path d="M6 12l4 4L18 6" />
-                        </svg>
-                      </label>
-                      <p className="ms-2.5 block md:hidden">
-                        {el.isComplete
-                          ? `Completed on ${el.completedDate}`
-                          : el.dueDate
-                          ? `Due by: ${el.dueDate}`
-                          : ``}
-                      </p>
-                    </div>
-
-                    <div className="flex justify-center flex-col order-1 md:order-2">
-                      <div>
-                        <h4
-                          className={`text-xl font-[500] ${
-                            el.description ? 'mb-2' : 'mb-0'
-                          }`}
-                        >
-                          {el.title}
-                        </h4>
-                      </div>
-                      {el.description ? (
-                        <div key={el.id}>
-                          <p>
-                            {expandedId === el.id ||
-                            el.description.length <= 160
-                              ? el.description
-                              : `${el.description.substring(0, 160)}...`}
-                            {el.description.length > 160 && (
-                              <span
-                                onClick={() => toggleExpand(el.id)}
-                                className="read-more"
-                                style={{ color: 'blue', cursor: 'pointer' }}
-                              >
-                                {expandedId === el.id
-                                  ? ' Show less'
-                                  : ' Read more'}
-                              </span>
-                            )}
+                        <div className="checkbox-container order-2 md:order-1">
+                          <input
+                            type="checkbox"
+                            id={`checkbox-${el.id}`} // Unique ID for each checkbox
+                            className="checkbox"
+                            checked={el.isComplete}
+                            onChange={() => handleCheckboxChange(el.id)} // Pass the id
+                          />
+                          <label
+                            htmlFor={`checkbox-${el.id}`}
+                            className="checkbox-label w-[40px] h-[40px] md:w-[60px] md:h-[60px]"
+                          >
+                            <svg className="checkmark" viewBox="0 0 24 24">
+                              <path d="M6 12l4 4L18 6" />
+                            </svg>
+                          </label>
+                          <p className="ms-2.5 block md:hidden">
+                            {el.isComplete
+                              ? `Completed on ${el.completedDate}`
+                              : el.dueDate
+                              ? `Due by: ${el.dueDate}`
+                              : ``}
                           </p>
                         </div>
-                      ) : (
-                        <span className="hidden"></span>
-                      )}
 
-                      {/* {el.dueDate ? (
+                        <div className="flex justify-center flex-col order-1 md:order-2">
+                          <div>
+                            <h4
+                              className={`text-xl font-[500] ${
+                                el.description ? 'mb-2' : 'mb-0'
+                              }`}
+                            >
+                              {el.title}
+                            </h4>
+                          </div>
+                          {el.description ? (
+                            <div key={el.id}>
+                              <p>
+                                {expandedId === el.id ||
+                                el.description.length <= 160
+                                  ? el.description
+                                  : `${el.description.substring(0, 160)}...`}
+                                {el.description.length > 160 && (
+                                  <span
+                                    onClick={() => toggleExpand(el.id)}
+                                    className="read-more"
+                                    style={{ color: 'blue', cursor: 'pointer' }}
+                                  >
+                                    {expandedId === el.id
+                                      ? ' Show less'
+                                      : ' Read more'}
+                                  </span>
+                                )}
+                              </p>
+                            </div>
+                          ) : (
+                            <span className="hidden"></span>
+                          )}
+
+                          {/* {el.dueDate ? (
                         <div>
                           <p>Due by: {el.dueDate}</p>
                         </div>
@@ -198,43 +209,183 @@ export function App() {
                         <span></span>
                       )} */}
 
-                      {/* <div>
+                          {/* <div>
                         <p>Status: {el.isComplete ? 'Done' : 'Pending'}</p>
                       </div> */}
-                      <p className="mt-2.5 hidden md:block">
-                        {el.isComplete
-                          ? `Completed on ${el.completedDate}`
-                          : el.dueDate
-                          ? `Due by: ${el.dueDate}`
-                          : ``}
-                      </p>
-                    </div>
-                    <div className="order-3 md:order-3 deletCol">
-                      <button
-                        type="button"
-                        onClick={() => handleDelete(el.id)}
-                        className="text-red-600 hover:underline float-end"
-                      >
-                        <img src={deleteIcon} alt="deleteIcon" />
-                      </button>
-                    </div>
-                  </li>
-                ))}
+                          <p className="mt-2.5 hidden md:block">
+                            {el.isComplete
+                              ? `Completed on ${el.completedDate}`
+                              : el.dueDate
+                              ? `Due by: ${el.dueDate}`
+                              : ``}
+                          </p>
+                        </div>
+                        <div className="order-3 md:order-3 deletCol">
+                          <button
+                            type="button"
+                            onClick={() => handleDelete(el.id)}
+                            className="text-red-600 hover:underline float-end"
+                          >
+                            <img src={deleteIcon} alt="deleteIcon" />
+                          </button>
+                        </div>
+                      </li>
+                    )
+                  )}
 
-                {todoList.length > 4 && (
-                  <button
-                    type="button"
-                    className="outline-btn"
-                    onClick={toggleShowAll}
-                  >
-                    <span>
-                      {showAll
-                        ? 'Show Less'
-                        : `Show More (${todoList.length - 4})`}
-                    </span>
-                  </button>
-                )}
-              </ul>
+                  {pendingTodoArr.length > 4 && (
+                    <button
+                      type="button"
+                      className="outline-btn flex"
+                      onClick={toggleShowAll}
+                    >
+                      <span>
+                        {showAll
+                          ? 'Show Less'
+                          : `Show More (${pendingTodoArr.length - 4})`}
+                      </span>{' '}
+                      {showAll ? (
+                        <img src={arrowUp} alt="arrowUp" />
+                      ) : (
+                        <img src={arrowDown} alt="arrowDown" />
+                      )}
+                    </button>
+                  )}
+                </ul>
+                {completedTodoArr.length > 0 && pendingTodoArr.length < 1 ? (
+                  <div className="border-solid border-[1.5px] border-slate-300 rounded-xl p-6 ">
+                    <div className="flex flex-col flex-wrap items-center justify-center">
+                      <div>
+                        <img src={todoIcon} alt="todoIcon" width={200} />
+                      </div>
+                      <div className="pb-8">
+                        <p>
+                          You’re all caught up, but we’ll keep your completed
+                          to-dos in case you need to refer back to them.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ) : undefined}
+                <ul>
+                  {completedTodoArr.length > 0 && (
+                    <button
+                      type="button"
+                      className="outline-btn completedOutlineBtn"
+                      onClick={toggleCompletedShowAll}
+                    >
+                      <span>
+                        {!completedShowAll
+                          ? `Show Completed (${completedTodoArr.length})`
+                          : 'Hide Completed'}
+                      </span>{' '}
+                      {completedShowAll ? (
+                        <img src={arrowUp} alt="arrowUp" />
+                      ) : (
+                        <img src={arrowDown} alt="arrowDown" />
+                      )}
+                    </button>
+                  )}
+
+                  {(completedShowAll
+                    ? completedTodoArr
+                    : completedTodoArr.slice(0, 0)
+                  ).map((el) => (
+                    <li
+                      className="relative border-solid border-[1.5px] border-slate-300 rounded-xl p-6 lg:ps-0 mb-2 gridLi"
+                      key={el.id}
+                    >
+                      <div className="checkbox-container order-2 md:order-1">
+                        <input
+                          type="checkbox"
+                          id={`checkbox-${el.id}`} // Unique ID for each checkbox
+                          className="checkbox"
+                          checked={el.isComplete}
+                          onChange={() => handleCheckboxChange(el.id)} // Pass the id
+                        />
+                        <label
+                          htmlFor={`checkbox-${el.id}`}
+                          className="checkbox-label w-[40px] h-[40px] md:w-[60px] md:h-[60px]"
+                        >
+                          <svg className="checkmark" viewBox="0 0 24 24">
+                            <path d="M6 12l4 4L18 6" />
+                          </svg>
+                        </label>
+                        <p className="ms-2.5 block md:hidden">
+                          {el.isComplete
+                            ? `Completed on ${el.completedDate}`
+                            : el.dueDate
+                            ? `Due by: ${el.dueDate}`
+                            : ``}
+                        </p>
+                      </div>
+
+                      <div className="flex justify-center flex-col order-1 md:order-2">
+                        <div>
+                          <h4
+                            className={`text-xl font-[500] ${
+                              el.description ? 'mb-2' : 'mb-0'
+                            }`}
+                          >
+                            {el.title}
+                          </h4>
+                        </div>
+                        {el.description ? (
+                          <div key={el.id}>
+                            <p>
+                              {expandedId === el.id ||
+                              el.description.length <= 160
+                                ? el.description
+                                : `${el.description.substring(0, 160)}...`}
+                              {el.description.length > 160 && (
+                                <span
+                                  onClick={() => toggleExpand(el.id)}
+                                  className="read-more"
+                                  style={{ color: 'blue', cursor: 'pointer' }}
+                                >
+                                  {expandedId === el.id
+                                    ? ' Show less'
+                                    : ' Read more'}
+                                </span>
+                              )}
+                            </p>
+                          </div>
+                        ) : (
+                          <span className="hidden"></span>
+                        )}
+
+                        {/* {el.dueDate ? (
+                        <div>
+                          <p>Due by: {el.dueDate}</p>
+                        </div>
+                      ) : (
+                        <span></span>
+                      )} */}
+
+                        {/* <div>
+                        <p>Status: {el.isComplete ? 'Done' : 'Pending'}</p>
+                      </div> */}
+                        <p className="mt-2.5 hidden md:block">
+                          {el.isComplete
+                            ? `Completed on ${el.completedDate}`
+                            : el.dueDate
+                            ? `Due by: ${el.dueDate}`
+                            : ``}
+                        </p>
+                      </div>
+                      <div className="order-3 md:order-3 deletCol">
+                        <button
+                          type="button"
+                          onClick={() => handleDelete(el.id)}
+                          className="text-red-600 hover:underline float-end"
+                        >
+                          <img src={deleteIcon} alt="deleteIcon" />
+                        </button>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </>
             )}
           </div>
           <div>
