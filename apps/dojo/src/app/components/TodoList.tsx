@@ -5,6 +5,8 @@ import { useState } from 'react';
 import deleteIcon from './../../assets/images/delete.svg';
 import arrowUp from './../../assets/images/arrowUp.svg';
 import arrowDown from './../../assets/images/arrow-down.svg';
+import arrowUpGreen from './../../assets/images/arrowUp-green.svg';
+import arrowDownGreen from './../../assets/images/arrow-down-green.svg';
 import InfoPrompt from './InfoPrompt';
 import todoIcon from './../../assets/images/todo-icon.png';
 
@@ -55,7 +57,7 @@ export function TodoList() {
       <ul>
         {(showAll ? pendingTodoArr : pendingTodoArr.slice(0, 4)).map((el) => (
           <li
-            className="relative border-solid border-[1.5px] border-slate-300 rounded-xl p-6 lg:ps-0 mb-2 gridLi"
+            className="relative border-solid border-[1.5px] border-slate-300 rounded-xl p-6 lg:ps-0 mb-2 gridLi bg-[#f2f2f2]"
             key={el.id}
           >
             <div className="checkbox-container order-2 md:order-1">
@@ -174,9 +176,9 @@ export function TodoList() {
                 : 'Hide Completed'}
             </span>{' '}
             {completedShowAll ? (
-              <img src={arrowUp} alt="arrowUp" />
+              <img src={arrowUpGreen} alt="arrowUp" />
             ) : (
-              <img src={arrowDown} alt="arrowDown" />
+              <img src={arrowDownGreen} alt="arrowDown" />
             )}
           </button>
         )}
@@ -186,7 +188,7 @@ export function TodoList() {
           : completedTodoArr.slice(0, 0)
         ).map((el) => (
           <li
-            className="relative border-solid border-[1.5px] border-slate-300 rounded-xl p-6 lg:ps-0 mb-2 gridLi"
+            className="relative border-solid border-[1.5px] border-slate-300 rounded-xl p-6 lg:ps-0 mb-2 gridLi bg-[#d4edda]"
             key={el.id}
           >
             <div className="checkbox-container order-2 md:order-1">

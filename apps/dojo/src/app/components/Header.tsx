@@ -1,13 +1,18 @@
 import logoWhite from './../../assets/images/logoWhite.png';
+import logo from './../../assets/images/logo.png';
 import homeIcon from './../../assets/images/home.svg';
-import personIcon from './../../assets/images/person.svg';
+import policyIcon from './../../assets/images/policy.svg';
+import termsConditions from './../../assets/images/terms-and-conditions-icon.svg';
 import menuOpen from './../../assets/images/menu-open.svg';
-import { useRecoilState } from 'recoil';
+import { useRecoilState, useRecoilValue } from 'recoil';
 import { headerVisibleAtom } from '../recoil/atoms/headerVisible';
 import { useRef, useEffect } from 'react';
+import { visibleStateAtom } from '../recoil/atoms/visibleAtom';
 
 export function Header() {
   const [isVisible, setIsVisible] = useRecoilState(headerVisibleAtom);
+  const visible = useRecoilValue(visibleStateAtom);
+  console.log(visible);
   const buttonRef = useRef<HTMLButtonElement>(null); // Ref for the button
   const headerRef = useRef<HTMLElement>(null); // Ref for the header
 
@@ -36,15 +41,19 @@ export function Header() {
 
   return (
     <>
-      <button
-        className="navButton"
-        type="button"
-        onClick={clickButtonVisible}
-        ref={buttonRef}
-      >
-        <img src={menuOpen} alt="menuOpen" />
-      </button>
-
+      <div className={`logoBlock ${!visible ? 'relative' : 'fixed'}`}>
+        <button
+          className="navButton"
+          type="button"
+          onClick={clickButtonVisible}
+          ref={buttonRef}
+        >
+          <img src={menuOpen} alt="menuOpen" />
+        </button>
+        <div>
+          <img src={logo} alt="logo" width={75} />
+        </div>
+      </div>
       <header
         ref={headerRef}
         className={isVisible ? `mainNav` : `slideAnimeBefore`}
@@ -52,9 +61,7 @@ export function Header() {
         <nav>
           <ul>
             <li className="mb-5">
-              <a href="/">
-                <img src={logoWhite} alt="logoOnly" />
-              </a>
+              <img src={logoWhite} alt="logoOnly" />
             </li>
             <li className="nav-list active">
               <a href="/">
@@ -62,8 +69,17 @@ export function Header() {
               </a>
             </li>
             <li className="nav-list">
-              <a href="/">
-                <img src={personIcon} alt="person" />
+              <a href="/privacy-policy">
+                <img src={policyIcon} alt="policy" />
+              </a>
+            </li>
+            <li className="nav-list">
+              <a href="/terms-and-conditions">
+                <img
+                  src={termsConditions}
+                  alt="terms-and-conditions"
+                  width={17}
+                />
               </a>
             </li>
           </ul>

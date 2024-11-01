@@ -31,26 +31,30 @@ export function UpcomingTodos() {
     (todo) => todo.dueDate !== undefined
   );
 
-  // Sort by due date and limit to the first 10
+  // Sort by due date and limit to the first 5
   const sortedTodos = filteredTodos
     .sort(
       (a, b) => new Date(a.dueDate!).getTime() - new Date(b.dueDate!).getTime()
     )
-    .slice(0, 10);
+    .slice(0, 5);
   return (
     <div className="border-solid border-[1.5px] border-slate-300 rounded-xl p-6">
       <div>
         <h2 className="text-xl font-[500] mb-5">Upcoming To-dos</h2>
         <ul>
-          {sortedTodos.length === 0 ? (
+          {sortedTodos.length === 0 && todoList.length !== 0 ? (
             <li className="mb-3">
               <p>You’re all caught up! No tasks are due soon.</p>
+            </li>
+          ) : todoList.length === 0 ? (
+            <li className="mb-3">
+              <p>No tasks added yet.</p>
             </li>
           ) : (
             sortedTodos.map((todo) => (
               <li key={todo.id} className="mb-3">
-                <p>
-                  Reminder: <strong>{todo.title}</strong> is due in -{' '}
+                <p className="bg-[#efefef] px-[15px] py-[10px]">
+                  <strong>{todo.title}</strong> is due in -{' '}
                   {calculateTimeLeft(todo.dueDate!)}.
                 </p>
               </li>

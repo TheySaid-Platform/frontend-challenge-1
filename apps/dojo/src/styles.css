@@ -121,19 +121,19 @@ body {
   background-color: var(--primaryColor);
   color: #fff;
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
   width: 100px;
   padding: 20px;
-  transform: translateX(-100%);
+  transform: translateX(100%);
   transition: all 0.3s ease-out;
 }
 .slideAnimeBefore {
   background-color: var(--primaryColor);
   color: #fff;
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
   width: 100px;
@@ -155,13 +155,18 @@ body {
 }
 
 .nav-list.active {
-  background-color: var(--secondaryColor);
+  background-color: #fe4504;
 }
 
-.navButton {
-  position: fixed;
-  top: 20px;
-  left: 20px;
+.logoBlock {
+  padding: 15px 20px;
+  
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .todoModal {
@@ -287,6 +292,7 @@ body {
 }
 
 .completedOutlineBtn {
+  color: #4bb543 !important;
   width: 100%;
   display: flex;
   justify-content: flex-end;
