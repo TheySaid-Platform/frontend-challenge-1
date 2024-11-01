@@ -51,10 +51,12 @@ This project is currently under active development. Features are being added and
 
 ### Directory Structure
 
+```
 achieva-pro-suite-org/
 ├── apps/
-│ └── dojo/ # Dojo To-Do app
+│   └── dojo/ # Dojo To-Do app
 └── nx.json # NX configuration
+```
 
 ### Suggestions
 
