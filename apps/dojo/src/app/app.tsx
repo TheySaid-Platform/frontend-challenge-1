@@ -1,9 +1,10 @@
 import { useRecoilState } from 'recoil';
+import { Tooltip } from 'react-tooltip';
 import WelcomePage from './components/WelcomePage';
 
 import { visibleStateAtom } from './recoil/atoms/visibleAtom';
 import { Header } from './components/Header';
-import addButton from './../assets/images/add-circle.svg';
+
 import todoIcon from './../assets/images/todo-icon.png';
 import { todoListAtom } from './recoil/atoms/todoListAtom';
 import { modalVisibleAtom } from './recoil/atoms/modalVisibleAtom';
@@ -14,11 +15,9 @@ import arrowUp from './../assets/images/arrowUp.svg';
 import arrowDown from './../assets/images/arrow-down.svg';
 import InfoPrompt from './components/InfoPrompt';
 import GreetingBox from './components/GreetingBox';
+import AddTodoButton from './components/AddTodoButton';
 
 export function App() {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [_, setModalVisible] = useRecoilState(modalVisibleAtom);
-
   const [completedData, setCompletedData] = useState('');
 
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -27,27 +26,12 @@ export function App() {
     setExpandedId(expandedId === id ? null : id);
   };
 
-  const openModal = () => {
-    setModalVisible((prevState) => !prevState);
-  };
   const [visible, setVisible] = useRecoilState(visibleStateAtom);
 
   const [todoList, setTodoList] = useRecoilState(todoListAtom);
 
   const completedTodoArr = todoList.filter((el) => el.isComplete);
   const pendingTodoArr = todoList.filter((el) => !el.isComplete);
-  const [promptTextState, setPromptTextState] = useState('Loading..');
-  useEffect(() => {
-    if (completedTodoArr.length > 0 && pendingTodoArr.length < 1) {
-      setPromptTextState(
-        'You’re all caught up, but we’ll keep your completed to-dos in case you need to refer back to them.'
-      );
-    } else if (todoList.length < 1) {
-      setPromptTextState(
-        'It looks like you don’t have any tasks added yet. Start by adding your first to-do!'
-      );
-    }
-  }, [completedTodoArr.length, pendingTodoArr.length, todoList.length]);
 
   const [showAll, setShowAll] = useState(false);
   const [completedShowAll, setCompletedShowAll] = useState(false);
@@ -112,24 +96,9 @@ export function App() {
         <GreetingBox />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div className="lg:col-span-2">
-            <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-[500]">To-dos</h2>
-              <div className="flex items-center">
-                <button type="button" onClick={openModal}>
-                  {/* <img src={addButton} alt="add button" width={40} /> */}
-                  <div className="add-button">
-                    <span className="plus">
-                      <img src={addButton} alt="add button" width={28} />
-                    </span>
-                  </div>
-                </button>
-              </div>
-            </div>
+            <AddTodoButton />
             {todoList.length < 1 ? (
-              <InfoPrompt
-                promptInfoIcon={todoIcon}
-                promptInfoText={promptTextState}
-              />
+              <InfoPrompt promptInfoIcon={todoIcon} />
             ) : (
               <>
                 <ul>
@@ -147,9 +116,15 @@ export function App() {
                             checked={el.isComplete}
                             onChange={() => handleCheckboxChange(el.id)} // Pass the id
                           />
+                          {pendingTodoArr.length >= 0 &&
+                          completedTodoArr.length < 1 ? (
+                            <Tooltip id="my-tooltip" />
+                          ) : undefined}
                           <label
                             htmlFor={`checkbox-${el.id}`}
                             className="checkbox-label w-[40px] h-[40px] md:w-[60px] md:h-[60px]"
+                            data-tooltip-id="my-tooltip"
+                            data-tooltip-content="Click here for Marking as Done"
                           >
                             <svg className="checkmark" viewBox="0 0 24 24">
                               <path d="M6 12l4 4L18 6" />
@@ -250,10 +225,7 @@ export function App() {
                   )}
                 </ul>
                 {completedTodoArr.length > 0 && pendingTodoArr.length < 1 ? (
-                  <InfoPrompt
-                    promptInfoIcon={todoIcon}
-                    promptInfoText={promptTextState}
-                  />
+                  <InfoPrompt promptInfoIcon={todoIcon} />
                 ) : undefined}
                 <ul>
                   {completedTodoArr.length > 0 && (
