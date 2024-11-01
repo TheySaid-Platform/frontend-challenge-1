@@ -119,17 +119,6 @@ export function TodoList() {
                 <span className="hidden"></span>
               )}
 
-              {/* {el.dueDate ? (
-                        <div>
-                          <p>Due by: {el.dueDate}</p>
-                        </div>
-                      ) : (
-                        <span></span>
-                      )} */}
-
-              {/* <div>
-                        <p>Status: {el.isComplete ? 'Done' : 'Pending'}</p>
-                      </div> */}
               <p className="mt-2.5 hidden md:block">
                 {el.isComplete
                   ? `Completed on ${el.completedDate}`
@@ -256,17 +245,6 @@ export function TodoList() {
                 <span className="hidden"></span>
               )}
 
-              {/* {el.dueDate ? (
-              <div>
-                <p>Due by: {el.dueDate}</p>
-              </div>
-            ) : (
-              <span></span>
-            )} */}
-
-              {/* <div>
-              <p>Status: {el.isComplete ? 'Done' : 'Pending'}</p>
-            </div> */}
               <p className="mt-2.5 hidden md:block">
                 {el.isComplete
                   ? `Completed on ${el.completedDate}`
