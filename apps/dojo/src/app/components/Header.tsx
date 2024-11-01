@@ -8,11 +8,13 @@ import { useRecoilState, useRecoilValue } from 'recoil';
 import { headerVisibleAtom } from '../recoil/atoms/headerVisible';
 import { useRef, useEffect } from 'react';
 import { visibleStateAtom } from '../recoil/atoms/visibleAtom';
+import { Link, useLocation } from 'react-router-dom';
 
 export function Header() {
+  const location = useLocation();
+  const isActive = (path: string) => location.pathname === path;
   const [isVisible, setIsVisible] = useRecoilState(headerVisibleAtom);
   const visible = useRecoilValue(visibleStateAtom);
-  console.log(visible);
   const buttonRef = useRef<HTMLButtonElement>(null); // Ref for the button
   const headerRef = useRef<HTMLElement>(null); // Ref for the header
 
@@ -41,7 +43,11 @@ export function Header() {
 
   return (
     <>
-      <div className={`logoBlock ${!visible ? 'relative' : 'fixed'}`}>
+      <div
+        className={`logoBlock ${
+          !visible || !isActive('/') ? 'relative' : 'fixed'
+        }`}
+      >
         <button
           className="navButton"
           type="button"
@@ -50,9 +56,11 @@ export function Header() {
         >
           <img src={menuOpen} alt="menuOpen" />
         </button>
-        <div>
-          <img src={logo} alt="logo" width={75} />
-        </div>
+        <Link to="/">
+          <div>
+            <img src={logo} alt="logo" width={75} />
+          </div>
+        </Link>
       </div>
       <header
         ref={headerRef}
@@ -60,28 +68,38 @@ export function Header() {
       >
         <nav>
           <ul>
-            <li className="mb-5">
-              <img src={logoWhite} alt="logoOnly" />
-            </li>
-            <li className="nav-list active">
-              <a href="/">
+            <Link to="/">
+              <li className="mb-5">
+                <img src={logoWhite} alt="logoOnly" />
+              </li>
+            </Link>
+            <Link to="/">
+              <li className={`nav-list ${isActive('/') ? 'active' : ''}`}>
                 <img src={homeIcon} alt="home" />
-              </a>
-            </li>
-            <li className="nav-list">
-              <a href="/privacy-policy">
+              </li>
+            </Link>
+            <Link to="/privacy-policy">
+              <li
+                className={`nav-list ${
+                  isActive('/privacy-policy') ? 'active' : ''
+                }`}
+              >
                 <img src={policyIcon} alt="policy" />
-              </a>
-            </li>
-            <li className="nav-list">
-              <a href="/terms-and-conditions">
+              </li>
+            </Link>
+            <Link to="/terms-and-conditions">
+              <li
+                className={`nav-list ${
+                  isActive('/terms-and-conditions') ? 'active' : ''
+                }`}
+              >
                 <img
                   src={termsConditions}
                   alt="terms-and-conditions"
                   width={17}
                 />
-              </a>
-            </li>
+              </li>
+            </Link>
           </ul>
         </nav>
       </header>

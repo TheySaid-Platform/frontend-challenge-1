@@ -21,6 +21,47 @@
   }
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primaryColor);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondaryColor);
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #fe4600;
+}
+
+::selection {
+  color: white;
+  background: #fe4600;
+}
+
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 /* Global styles */
 body {
   @apply bg-[var(--backgroundColor)] text-[var(--textColor)] font-roboto;
@@ -128,6 +169,7 @@ body {
   padding: 20px;
   transform: translateX(100%);
   transition: all 0.3s ease-out;
+  z-index: 99999999;
 }
 .slideAnimeBefore {
   background-color: var(--primaryColor);
@@ -140,6 +182,7 @@ body {
   padding: 20px;
   transform: translateX(0%);
   transition: all 0.3s ease-in;
+  z-index: 99999999;
 }
 
 .nav-list {
@@ -160,7 +203,7 @@ body {
 
 .logoBlock {
   padding: 15px 20px;
-  
+
   left: 0;
   top: 0;
   width: 100%;

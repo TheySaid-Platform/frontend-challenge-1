@@ -26,8 +26,8 @@ export function GreetingBox() {
       setGreetingHeadingState('Night Owl!');
       setGreetingTextState('Late work? Let’s get it done together!');
     } else if (hour >= 3 && hour < 6) {
-      setGreetingHeadingState('Early Riser!');
-      setGreetingTextState('Ready to jumpstart your day?');
+      setGreetingHeadingState('Hello!');
+      setGreetingTextState("Let's tackle your tasks together!");
     }
   }, []);
   return (

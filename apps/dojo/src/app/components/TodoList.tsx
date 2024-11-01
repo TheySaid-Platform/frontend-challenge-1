@@ -8,7 +8,6 @@ import arrowDown from './../../assets/images/arrow-down.svg';
 import arrowUpGreen from './../../assets/images/arrowUp-green.svg';
 import arrowDownGreen from './../../assets/images/arrow-down-green.svg';
 import InfoPrompt from './InfoPrompt';
-import todoIcon from './../../assets/images/todo-icon.png';
 
 export function TodoList() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -161,7 +160,7 @@ export function TodoList() {
         )}
       </ul>
       {completedTodoArr.length > 0 && pendingTodoArr.length < 1 ? (
-        <InfoPrompt promptInfoIcon={todoIcon} />
+        <InfoPrompt />
       ) : undefined}
       <ul>
         {completedTodoArr.length > 0 && (

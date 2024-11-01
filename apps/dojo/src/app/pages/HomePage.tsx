@@ -1,6 +1,6 @@
 import { useRecoilState } from 'recoil';
 import AddTodoButton from '../components/AddTodoButton';
-import todoIcon from './../../assets/images/todo-icon.png';
+
 import GreetingBox from '../components/GreetingBox';
 
 import InfoPrompt from '../components/InfoPrompt';
@@ -44,7 +44,7 @@ const HomePage = () => {
           <div className="lg:col-span-2">
             <AddTodoButton />
             {todoList.length < 1 ? (
-              <InfoPrompt promptInfoIcon={todoIcon} />
+              <InfoPrompt  />
             ) : (
               <TodoList />
             )}
