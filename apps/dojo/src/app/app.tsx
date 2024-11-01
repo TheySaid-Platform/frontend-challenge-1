@@ -1,4 +1,4 @@
-import { useRecoilState, useRecoilValue } from 'recoil';
+import { useRecoilState } from 'recoil';
 import WelcomePage from './components/WelcomePage';
 
 import { visibleStateAtom } from './recoil/atoms/visibleAtom';
@@ -8,10 +8,12 @@ import todoIcon from './../assets/images/todo-icon.png';
 import { todoListAtom } from './recoil/atoms/todoListAtom';
 import { modalVisibleAtom } from './recoil/atoms/modalVisibleAtom';
 import TodoItemCreator from './components/TodoItemCreator';
-import { SetStateAction, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import deleteIcon from './../assets/images/delete.svg';
 import arrowUp from './../assets/images/arrowUp.svg';
 import arrowDown from './../assets/images/arrow-down.svg';
+import InfoPrompt from './components/InfoPrompt';
+import GreetingBox from './components/GreetingBox';
 
 export function App() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -31,11 +33,21 @@ export function App() {
   const [visible, setVisible] = useRecoilState(visibleStateAtom);
 
   const [todoList, setTodoList] = useRecoilState(todoListAtom);
-  console.log(todoList);
+
   const completedTodoArr = todoList.filter((el) => el.isComplete);
   const pendingTodoArr = todoList.filter((el) => !el.isComplete);
-  console.log(completedTodoArr, 'completedTodoArr');
-  console.log(pendingTodoArr, 'pendingTodoArr');
+  const [promptTextState, setPromptTextState] = useState('Loading..');
+  useEffect(() => {
+    if (completedTodoArr.length > 0 && pendingTodoArr.length < 1) {
+      setPromptTextState(
+        'You’re all caught up, but we’ll keep your completed to-dos in case you need to refer back to them.'
+      );
+    } else if (todoList.length < 1) {
+      setPromptTextState(
+        'It looks like you don’t have any tasks added yet. Start by adding your first to-do!'
+      );
+    }
+  }, [completedTodoArr.length, pendingTodoArr.length, todoList.length]);
 
   const [showAll, setShowAll] = useState(false);
   const [completedShowAll, setCompletedShowAll] = useState(false);
@@ -61,9 +73,9 @@ export function App() {
   }, [todoList, setVisible]);
 
   const [isChecked, setIsChecked] = useState(false);
+  const currentDate = new Date();
 
   const handleCheckboxChange = (id: string) => {
-    const currentDate = new Date();
     const options: Intl.DateTimeFormatOptions = {
       year: 'numeric',
       month: 'long',
@@ -97,13 +109,7 @@ export function App() {
         className="py-8"
         style={{ display: `${show === 'flex' ? 'block' : 'none'}` }}
       >
-        <div className="bg-[#2f4f4f] rounded-xl p-6 mb-6">
-          <h2 className="text-4xl font-[500] text-white">Good Morning</h2>
-          <p className="text-white">
-            You’re all caught up, but we’ll keep your completed to-dos in case
-            you need to refer back to them.
-          </p>
-        </div>
+        <GreetingBox />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div className="lg:col-span-2">
             <div className="flex justify-between items-center mb-4">
@@ -120,19 +126,10 @@ export function App() {
               </div>
             </div>
             {todoList.length < 1 ? (
-              <div className="border-solid border-[1.5px] border-slate-300 rounded-xl p-6 ">
-                <div className="flex flex-col flex-wrap items-center justify-center">
-                  <div>
-                    <img src={todoIcon} alt="todoIcon" width={200} />
-                  </div>
-                  <div className="pb-8">
-                    <p>
-                      It looks like you don’t have any tasks added yet. Start by
-                      adding your first to-do!
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <InfoPrompt
+                promptInfoIcon={todoIcon}
+                promptInfoText={promptTextState}
+              />
             ) : (
               <>
                 <ul>
@@ -253,19 +250,10 @@ export function App() {
                   )}
                 </ul>
                 {completedTodoArr.length > 0 && pendingTodoArr.length < 1 ? (
-                  <div className="border-solid border-[1.5px] border-slate-300 rounded-xl p-6 ">
-                    <div className="flex flex-col flex-wrap items-center justify-center">
-                      <div>
-                        <img src={todoIcon} alt="todoIcon" width={200} />
-                      </div>
-                      <div className="pb-8">
-                        <p>
-                          You’re all caught up, but we’ll keep your completed
-                          to-dos in case you need to refer back to them.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  <InfoPrompt
+                    promptInfoIcon={todoIcon}
+                    promptInfoText={promptTextState}
+                  />
                 ) : undefined}
                 <ul>
                   {completedTodoArr.length > 0 && (
