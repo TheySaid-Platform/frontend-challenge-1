@@ -55,8 +55,6 @@ This assignment i developed for upwork client as demo of my coding skills.
 
 ### Tech Stack
 
-### Tech Stack
-
 - [**React**](https://reactjs.org/)
 - [**Tailwind CSS**](https://tailwindcss.com/)
 
