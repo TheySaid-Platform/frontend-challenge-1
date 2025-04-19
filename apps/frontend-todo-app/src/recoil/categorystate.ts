@@ -13,12 +13,12 @@ const defaultCategories: Category[] = [
   {
     name: "Work",
     colorLight: "bg-blue-200 text-blue-800",
-    colorDark: "bg-blue-900 text-blue-200",
+    colorDark: "bg-blue-200 text-blue-800",
   },
   {
     name: "Personal",
-    colorLight: "bg-green-200 text-green-800",
-    colorDark: "bg-green-900 text-green-200",
+    colorLight: "bg-blue-200 text-blue-800",
+    colorDark: "bg-blue-200 text-blue-800",
   },
 ];
 

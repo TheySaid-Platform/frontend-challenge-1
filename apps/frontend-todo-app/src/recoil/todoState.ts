@@ -1,5 +1,5 @@
 import { atom, selector } from "recoil";
-import { Priority, Todo } from "../app/types/todo";
+import { Todo } from "../app/types/todo";
 import { filterState } from "./filterState";
 import { selectedCategoryState } from "./categorystate";
 
@@ -17,7 +17,7 @@ const getInitialTodos = (): Todo[] => {
     }
   }
 
-  return []; // no defaults
+  return [];
 };
 
 export const todoListState = atom<Todo[]>({

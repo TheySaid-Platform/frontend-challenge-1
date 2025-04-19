@@ -24,8 +24,14 @@ const isDark = theme === "dark";
     const isDuplicate = categories.some((cat) => cat.name === trimmed);
     if (!trimmed || isDuplicate) return;
 
-    setCategories([...categories, { name: trimmed, color: selectedColor }]);
-    setInput("");
+    setCategories([
+      ...categories,
+      {
+        name: trimmed,
+        colorLight: selectedColor,
+        colorDark: selectedColor,
+      },
+    ]);    setInput("");
     setSelectedColor(COLOR_OPTIONS[0]);
     setShowInput(false);
   };

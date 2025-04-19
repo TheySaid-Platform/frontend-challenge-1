@@ -17,10 +17,11 @@ interface Props {
 const TodoItem = ({ todo, onToggle, onDelete, onEdit }: Props) => {
   const categoryList = useRecoilValue(categoryListState);
   const found = categoryList.find((c) => c.name === todo.category);
-  const categoryColor = found ? found.color : "bg-gray-200 text-gray-700";
+  const categoryColor = found ? found.colorLight : "bg-gray-500";
   const [showModal, setShowModal] = useState<boolean>(false);
   const theme = useRecoilValue(themeState);
   const isDark = theme === "dark";
+  console.log(categoryColor,'categoryColor');
 
   return (
     <div
