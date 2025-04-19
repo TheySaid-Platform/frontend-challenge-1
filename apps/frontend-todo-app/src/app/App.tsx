@@ -1,12 +1,12 @@
 
 export function App() {
-  return(
+  return (
     <>
-      Hello world
+    This is the App component
     </>
-  )
+ 
+    
+   );
 }
 
-export default App;
-
-
+export default App
