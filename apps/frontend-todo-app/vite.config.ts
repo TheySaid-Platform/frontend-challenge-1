@@ -26,5 +26,8 @@ export default defineConfig(() => ({
     commonjsOptions: {
       transformMixedEsModules: true,
     },
+    rollupOptions: {
+      input: path.resolve(__dirname, 'index.html')
+    }
   },
 }));
