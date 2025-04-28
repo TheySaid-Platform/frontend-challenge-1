@@ -1,0 +1,28 @@
+{
+  "name": "frontend-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tshobohwa/frontend-challenge.git"
+  },
+  "author": "Salomon Tshobohwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tshobohwa/frontend-challenge/issues"
+  },
+  "homepage": "https://github.com/Tshobohwa/frontend-challenge#readme",
+  "description": "",
+  "devDependencies": {
+    "@nx/react": "21.0.0-canary.20250426-da4f55b",
+    "nx": "20.8.1"
+  },
+  "nx": {},
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
