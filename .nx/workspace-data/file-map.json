@@ -4,6 +4,9 @@
   "pathMappings": {
     "@todo/interfaces": [
       "libs/interfaces/src/index.ts"
+    ],
+    "@todo/ui": [
+      "libs/ui/src/index.ts"
     ]
   },
   "nxJsonPlugins": [
@@ -56,6 +59,117 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "frontend-challenge": [
+        {
+          "file": ".gitignore",
+          "hash": "11900229695057693808"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "14688272390704683536"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": ".vscode/mcp.json",
+          "hash": "11278829528521069525"
+        },
+        {
+          "file": "eslint.config.mjs",
+          "hash": "14755833654515998580",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "6870352021923392442",
+          "deps": [
+            "npm:jest",
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "9430166341120122740",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "nx.json",
+          "hash": "3778483098325285725"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "8173836468800718622"
+        },
+        {
+          "file": "package.json",
+          "hash": "15710314527509653515",
+          "deps": [
+            "npm:@babel/core",
+            "npm:@babel/preset-react",
+            "npm:@eslint/js",
+            "npm:@nx/cypress",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/react",
+            "npm:@nx/vite",
+            "npm:@nx/web",
+            "npm:@swc-node/register",
+            "npm:@swc/cli",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@testing-library/dom",
+            "npm:@testing-library/react",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:@vitest/ui",
+            "npm:autoprefixer",
+            "npm:babel-jest",
+            "npm:cypress",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-cypress",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:jest",
+            "npm:jest-environment-jsdom",
+            "npm:jest-environment-node",
+            "npm:jiti",
+            "npm:jsdom",
+            "npm:jsonc-eslint-parser",
+            "npm:nx",
+            "npm:postcss",
+            "npm:prettier",
+            "npm:tailwindcss",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:tslib",
+            "npm:typescript",
+            "npm:typescript-eslint",
+            "npm:vite",
+            "npm:vitest",
+            "npm:ajv",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "16936441711144470533"
+        }
+      ],
       "todo-e2e": [
         {
           "file": "apps/todo-e2e/cypress.config.ts",
@@ -187,114 +301,6 @@
             "npm:@vitejs/plugin-react",
             "npm:@nx/vite"
           ]
-        }
-      ],
-      "frontend-challenge": [
-        {
-          "file": ".gitignore",
-          "hash": "11900229695057693808"
-        },
-        {
-          "file": ".prettierignore",
-          "hash": "14688272390704683536"
-        },
-        {
-          "file": ".prettierrc",
-          "hash": "16267754514737964994"
-        },
-        {
-          "file": ".vscode/mcp.json",
-          "hash": "11278829528521069525"
-        },
-        {
-          "file": "eslint.config.mjs",
-          "hash": "14755833654515998580",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "jest.config.ts",
-          "hash": "6870352021923392442",
-          "deps": [
-            "npm:jest",
-            "npm:@nx/jest"
-          ]
-        },
-        {
-          "file": "jest.preset.js",
-          "hash": "9430166341120122740",
-          "deps": [
-            "npm:@nx/jest"
-          ]
-        },
-        {
-          "file": "nx.json",
-          "hash": "3778483098325285725"
-        },
-        {
-          "file": "package-lock.json",
-          "hash": "8173836468800718622"
-        },
-        {
-          "file": "package.json",
-          "hash": "15710314527509653515",
-          "deps": [
-            "npm:@eslint/js",
-            "npm:@nx/cypress",
-            "npm:@nx/eslint",
-            "npm:@nx/eslint-plugin",
-            "npm:@nx/jest",
-            "npm:@nx/js",
-            "npm:@nx/react",
-            "npm:@nx/vite",
-            "npm:@nx/web",
-            "npm:@swc-node/register",
-            "npm:@swc/cli",
-            "npm:@swc/core",
-            "npm:@swc/helpers",
-            "npm:@testing-library/dom",
-            "npm:@testing-library/react",
-            "npm:@types/jest",
-            "npm:@types/node",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:@vitejs/plugin-react",
-            "npm:@vitest/ui",
-            "npm:autoprefixer",
-            "npm:babel-jest",
-            "npm:cypress",
-            "npm:eslint",
-            "npm:eslint-config-prettier",
-            "npm:eslint-plugin-cypress",
-            "npm:eslint-plugin-import",
-            "npm:eslint-plugin-jsx-a11y",
-            "npm:eslint-plugin-react",
-            "npm:eslint-plugin-react-hooks",
-            "npm:jest",
-            "npm:jest-environment-jsdom",
-            "npm:jest-environment-node",
-            "npm:jiti",
-            "npm:jsdom",
-            "npm:jsonc-eslint-parser",
-            "npm:nx",
-            "npm:postcss",
-            "npm:prettier",
-            "npm:tailwindcss",
-            "npm:ts-jest",
-            "npm:ts-node",
-            "npm:tslib",
-            "npm:typescript",
-            "npm:typescript-eslint",
-            "npm:vite",
-            "npm:vitest",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "tsconfig.base.json",
-          "hash": "16936441711144470533"
         }
       ]
     },

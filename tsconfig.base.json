@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@todo/interfaces": ["libs/interfaces/src/index.ts"]
+      "@todo/interfaces": ["libs/interfaces/src/index.ts"],
+      "@todo/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
