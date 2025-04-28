@@ -3,7 +3,7 @@ export function Button(props: { children?: string; onClick?: () => void }) {
   return (
     <button
       onClick={onClick}
-      className="px-4 py-2 rounded-sm bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+      className="px-4 py-2 rounded-sm bg-gradient-to-t from-violet-300 to-pink-200 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
     >
       {children}
     </button>
