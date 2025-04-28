@@ -13365,12 +13365,22 @@
       },
       {
         "source": "frontend-challenge",
+        "target": "npm:jest-environment-node",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
         "target": "npm:jiti",
         "type": "static"
       },
       {
         "source": "frontend-challenge",
         "target": "npm:jsdom",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:jsonc-eslint-parser",
         "type": "static"
       },
       {
@@ -31020,5 +31030,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1745805867352
+  "computedAt": 1745806536386
 }
