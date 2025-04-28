@@ -238,7 +238,7 @@
         },
         {
           "file": "libs/ui/src/lib/page-container.tsx",
-          "hash": "5121110022124030110"
+          "hash": "17200621546861219485"
         },
         {
           "file": "libs/ui/src/lib/title.spec.tsx",
@@ -381,7 +381,7 @@
         },
         {
           "file": "libs/interfaces/src/lib/todo.ts",
-          "hash": "11108307502501590054"
+          "hash": "3345160275604075789"
         },
         {
           "file": "libs/interfaces/tsconfig.json",
@@ -447,7 +447,21 @@
         },
         {
           "file": "apps/todo/src/app/components/todo-item.tsx",
-          "hash": "4949049032866485377",
+          "hash": "1400837387331441245",
+          "deps": [
+            "interfaces"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/components/todo-list.spec.tsx",
+          "hash": "8230376740724329084",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/components/todo-list.tsx",
+          "hash": "4102030320078304904",
           "deps": [
             "interfaces"
           ]
@@ -465,7 +479,7 @@
         },
         {
           "file": "apps/todo/src/app/pages/home.tsx",
-          "hash": "9820018621578948463",
+          "hash": "5318371658548637542",
           "deps": [
             "ui"
           ]
