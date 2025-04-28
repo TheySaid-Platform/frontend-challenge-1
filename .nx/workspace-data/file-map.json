@@ -408,7 +408,7 @@
         },
         {
           "file": "apps/todo/src/app/app.tsx",
-          "hash": "10698077245886059160",
+          "hash": "15643835444609824145",
           "deps": [
             "ui"
           ]
@@ -430,6 +430,17 @@
         {
           "file": "apps/todo/src/app/nx-welcome.tsx",
           "hash": "2348102959109701629"
+        },
+        {
+          "file": "apps/todo/src/app/pages/home.spec.tsx",
+          "hash": "17027508814295127804",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/pages/home.tsx",
+          "hash": "3455649317399230674"
         },
         {
           "file": "apps/todo/src/assets/.gitkeep",
