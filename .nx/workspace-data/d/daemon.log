@@ -27504,3 +27504,129 @@ Node.js v22.14.0
 [NX v20.8.1 Daemon Server] - 2025-04-28T16:07:23.820Z - [SYNC]: project graph hash is the same, not collecting task sync generators
 [NX v20.8.1 Daemon Server] - 2025-04-28T16:07:23.820Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
 [NX v20.8.1 Daemon Server] - 2025-04-28T16:07:23.820Z - Time taken for 'total execution time for createProjectGraph()' 84.48560000024736ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:22.316Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:22.316Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:22.382Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:22.385Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:22.610Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:22.613Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:22.834Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:22.837Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:23.006Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:23.008Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:23.198Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:23.198Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:23.390Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:23.393Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:23.574Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:23.576Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:28.728Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:28.728Z - [REQUEST]: libs/ui/src/lib/button.tsx
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:28.728Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:28.841Z - Time taken for 'hash changed files from watcher' 0.7641000002622604ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:28.871Z - Time taken for 'build-project-configs' 119.14030000008643ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:28.872Z - Time taken for '@nx/vite/plugin:createDependencies' 16.09070000052452ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:28.942Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:28.944Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:28.944Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:10:28.944Z - Time taken for 'total execution time for createProjectGraph()' 63.80630000028759ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:05.716Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:05.718Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:06.341Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:06.346Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:06.417Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:06.420Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:06.690Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:06.690Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:06.886Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:06.887Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:07.132Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:07.133Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:07.332Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:07.334Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:07.564Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:07.565Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:07.802Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:07.804Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:08.368Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:08.369Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:10.850Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:10.850Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:12.168Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:12.168Z - [REQUEST]: apps/todo/src/app/components/new-todo-form.tsx,libs/ui/src/lib/button.tsx
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:12.168Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:12.240Z - Time taken for 'hash changed files from watcher' 17.560899999924004ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:12.337Z - Time taken for 'build-project-configs' 120.03670000005513ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:12.338Z - Time taken for '@nx/vite/plugin:createDependencies' 13.44539999961853ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:12.409Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:12.410Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:12.410Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:12.410Z - Time taken for 'total execution time for createProjectGraph()' 62.026600000448525ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:13.714Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:13.715Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:13.984Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:13.985Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:14.109Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:14.127Z - [WATCHER]: libs/ui/src/lib/button.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:20.121Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:20.121Z - [REQUEST]: libs/ui/src/lib/button.tsx
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:20.121Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:20.166Z - Time taken for 'hash changed files from watcher' 0.41270000021904707ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:20.233Z - Time taken for 'build-project-configs' 90.52450000029057ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:20.234Z - Time taken for '@nx/vite/plugin:createDependencies' 15.565600000321865ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:20.301Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:20.302Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:20.302Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:20.302Z - Time taken for 'total execution time for createProjectGraph()' 57.361500000581145ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:27.001Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:27.002Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:28.358Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:28.369Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:28.904Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:28.906Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:29.186Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:29.186Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:33.407Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:33.407Z - [REQUEST]: apps/todo/src/app/components/new-todo-form.tsx
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:33.407Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:33.451Z - Time taken for 'hash changed files from watcher' 1.7629999993368983ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:33.494Z - Time taken for 'build-project-configs' 73.56039999984205ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:33.495Z - Time taken for '@nx/vite/plugin:createDependencies' 8.49919999949634ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:33.541Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:33.541Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:33.542Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:33.542Z - Time taken for 'total execution time for createProjectGraph()' 35.80270000081509ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:36.074Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:36.083Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:36.382Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:36.383Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:36.561Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:36.562Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:36.737Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:36.738Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:36.923Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:36.923Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:37.097Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:37.099Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:42.501Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:42.501Z - [REQUEST]: apps/todo/src/app/components/new-todo-form.tsx
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:42.501Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:42.566Z - Time taken for 'hash changed files from watcher' 4.658999999985099ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:42.602Z - Time taken for 'build-project-configs' 80.66009999997914ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:42.603Z - Time taken for '@nx/vite/plugin:createDependencies' 7.6940000001341105ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:42.645Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:42.646Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:42.646Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:11:42.646Z - Time taken for 'total execution time for createProjectGraph()' 32.78039999958128ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:34.404Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:34.407Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:34.721Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:34.722Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:34.896Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:34.897Z - [WATCHER]: apps/todo/src/app/components/new-todo-form.tsx was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:36.231Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:36.232Z - [WATCHER]: package.json was modified
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:38.677Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:38.680Z - [WATCHER]: Stopping the watcher for c:\Users\stsho\Desktop\job tests\frontend-challenge (sources)
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:38.682Z - [WATCHER]: Stopping the watcher for c:\Users\stsho\Desktop\job tests\frontend-challenge (outputs)
+[NX v20.8.1 Daemon Server] - 2025-04-28T16:13:38.686Z - Server stopped because: "LOCK_FILES_CHANGED"

@@ -8685,6 +8685,15 @@
         "hash": "sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag=="
       }
     },
+    "npm:hamt_plus": {
+      "type": "npm",
+      "name": "npm:hamt_plus",
+      "data": {
+        "version": "1.0.2",
+        "packageName": "hamt_plus",
+        "hash": "sha512-t2JXKaehnMb9paaYA7J0BX8QQAY8lwfQ9Gjf4pg/mk4krt+cmwmU652HOoWonf+7+EQV97ARPMhhVgU1ra2GhA=="
+      }
+    },
     "npm:harmony-reflect": {
       "type": "npm",
       "name": "npm:harmony-reflect",
@@ -11401,6 +11410,15 @@
         "version": "3.6.0",
         "packageName": "readdirp",
         "hash": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA=="
+      }
+    },
+    "npm:recoil": {
+      "type": "npm",
+      "name": "npm:recoil",
+      "data": {
+        "version": "0.7.7",
+        "packageName": "recoil",
+        "hash": "sha512-8Og5KPQW9LwC577Vc7Ug2P0vQshkv1y3zG3tSSkWMqkWSwHmE+by06L8JtnGocjW6gcCvfwB3YtrJG6/tWivNQ=="
       }
     },
     "npm:reflect.getprototypeof": {
@@ -27641,6 +27659,16 @@
     {
       "source": "npm:readable-stream",
       "target": "npm:util-deprecate",
+      "type": "static"
+    },
+    {
+      "source": "npm:recoil",
+      "target": "npm:react",
+      "type": "static"
+    },
+    {
+      "source": "npm:recoil",
+      "target": "npm:hamt_plus",
       "type": "static"
     },
     {

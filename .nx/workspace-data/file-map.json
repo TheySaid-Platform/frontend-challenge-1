@@ -58,51 +58,121 @@
     }
   ],
   "fileMap": {
-    "nonProjectFiles": [],
     "projectFileMap": {
-      "todo-e2e": [
+      "ui": [
         {
-          "file": "apps/todo-e2e/cypress.config.ts",
-          "hash": "102648774327148143",
+          "file": "libs/ui/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "libs/ui/README.md",
+          "hash": "12971312433074001572"
+        },
+        {
+          "file": "libs/ui/eslint.config.mjs",
+          "hash": "8789163670399984295",
           "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
+            "npm:@nx/eslint-plugin"
           ]
         },
         {
-          "file": "apps/todo-e2e/eslint.config.mjs",
-          "hash": "7267301145493616340",
+          "file": "libs/ui/jest.config.ts",
+          "hash": "16071852883579489248"
+        },
+        {
+          "file": "libs/ui/package.json",
+          "hash": "2388279505852251753"
+        },
+        {
+          "file": "libs/ui/project.json",
+          "hash": "12196302964876651695"
+        },
+        {
+          "file": "libs/ui/src/index.ts",
+          "hash": "7313711663072464546"
+        },
+        {
+          "file": "libs/ui/src/lib/button.spec.tsx",
+          "hash": "3113427159981638380",
           "deps": [
-            "npm:eslint-plugin-cypress"
+            "npm:@testing-library/react"
           ]
         },
         {
-          "file": "apps/todo-e2e/project.json",
-          "hash": "5213915309306293032"
+          "file": "libs/ui/src/lib/button.tsx",
+          "hash": "15249866416407854031"
         },
         {
-          "file": "apps/todo-e2e/src/e2e/app.cy.ts",
-          "hash": "4209823922990737781"
+          "file": "libs/ui/src/lib/checkbox.spec.tsx",
+          "hash": "15215541356037511497",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
         },
         {
-          "file": "apps/todo-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
+          "file": "libs/ui/src/lib/checkbox.tsx",
+          "hash": "3023634910687603186"
         },
         {
-          "file": "apps/todo-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
+          "file": "libs/ui/src/lib/input.spec.tsx",
+          "hash": "6935492646402137776",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
         },
         {
-          "file": "apps/todo-e2e/src/support/commands.ts",
-          "hash": "6408592624158157338"
+          "file": "libs/ui/src/lib/input.tsx",
+          "hash": "14079182723972944280",
+          "deps": [
+            "npm:react"
+          ]
         },
         {
-          "file": "apps/todo-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
+          "file": "libs/ui/src/lib/page-container.spec.tsx",
+          "hash": "4435856712825518679",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
         },
         {
-          "file": "apps/todo-e2e/tsconfig.json",
-          "hash": "10740392072068377465"
+          "file": "libs/ui/src/lib/page-container.tsx",
+          "hash": "17200621546861219485"
+        },
+        {
+          "file": "libs/ui/src/lib/title.spec.tsx",
+          "hash": "15883124272405615541",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/title.tsx",
+          "hash": "18136695737122537983",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/tsconfig.json",
+          "hash": "10374583890390798648"
+        },
+        {
+          "file": "libs/ui/tsconfig.lib.json",
+          "hash": "6750625921117520019"
+        },
+        {
+          "file": "libs/ui/tsconfig.spec.json",
+          "hash": "11575178531540047385"
+        },
+        {
+          "file": "libs/ui/vite.config.ts",
+          "hash": "12451287124665257871",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
         }
       ],
       "frontend-challenge": [
@@ -217,6 +287,51 @@
           "hash": "15658095488402938073"
         }
       ],
+      "todo-e2e": [
+        {
+          "file": "apps/todo-e2e/cypress.config.ts",
+          "hash": "102648774327148143",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/todo-e2e/eslint.config.mjs",
+          "hash": "7267301145493616340",
+          "deps": [
+            "npm:eslint-plugin-cypress"
+          ]
+        },
+        {
+          "file": "apps/todo-e2e/project.json",
+          "hash": "5213915309306293032"
+        },
+        {
+          "file": "apps/todo-e2e/src/e2e/app.cy.ts",
+          "hash": "4209823922990737781"
+        },
+        {
+          "file": "apps/todo-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/todo-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/todo-e2e/src/support/commands.ts",
+          "hash": "6408592624158157338"
+        },
+        {
+          "file": "apps/todo-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/todo-e2e/tsconfig.json",
+          "hash": "10740392072068377465"
+        }
+      ],
       "todo": [
         {
           "file": "apps/todo/eslint.config.mjs",
@@ -260,22 +375,6 @@
           ]
         },
         {
-          "file": "apps/todo/src/app/components/new-todo-form.spec.tsx",
-          "hash": "14822539725906900310",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/components/new-todo-form.tsx",
-          "hash": "2616507843046485458",
-          "deps": [
-            "npm:react-icons",
-            "ui",
-            "npm:react"
-          ]
-        },
-        {
           "file": "apps/todo/src/app/components/todo-item.spec.tsx",
           "hash": "8379785162985741930",
           "deps": [
@@ -284,7 +383,7 @@
         },
         {
           "file": "apps/todo/src/app/components/todo-item.tsx",
-          "hash": "16236354006658260925",
+          "hash": "62882312219400970",
           "deps": [
             "interfaces",
             "ui",
@@ -319,7 +418,7 @@
         },
         {
           "file": "apps/todo/src/app/pages/home.tsx",
-          "hash": "8230700944292219043",
+          "hash": "5318371658548637542",
           "deps": [
             "ui"
           ]
@@ -431,123 +530,8 @@
           "file": "libs/interfaces/tsconfig.spec.json",
           "hash": "6622138706846345436"
         }
-      ],
-      "ui": [
-        {
-          "file": "libs/ui/.babelrc",
-          "hash": "2946678488919325452"
-        },
-        {
-          "file": "libs/ui/README.md",
-          "hash": "12971312433074001572"
-        },
-        {
-          "file": "libs/ui/eslint.config.mjs",
-          "hash": "8789163670399984295",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "libs/ui/jest.config.ts",
-          "hash": "16071852883579489248"
-        },
-        {
-          "file": "libs/ui/package.json",
-          "hash": "2388279505852251753"
-        },
-        {
-          "file": "libs/ui/project.json",
-          "hash": "12196302964876651695"
-        },
-        {
-          "file": "libs/ui/src/index.ts",
-          "hash": "7313711663072464546"
-        },
-        {
-          "file": "libs/ui/src/lib/button.spec.tsx",
-          "hash": "3113427159981638380",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/button.tsx",
-          "hash": "6690998237568339692"
-        },
-        {
-          "file": "libs/ui/src/lib/checkbox.spec.tsx",
-          "hash": "15215541356037511497",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/checkbox.tsx",
-          "hash": "3023634910687603186"
-        },
-        {
-          "file": "libs/ui/src/lib/input.spec.tsx",
-          "hash": "6935492646402137776",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/input.tsx",
-          "hash": "15562545905791383676",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/page-container.spec.tsx",
-          "hash": "4435856712825518679",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/page-container.tsx",
-          "hash": "17200621546861219485"
-        },
-        {
-          "file": "libs/ui/src/lib/title.spec.tsx",
-          "hash": "15883124272405615541",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/title.tsx",
-          "hash": "18136695737122537983",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/ui/tsconfig.json",
-          "hash": "10374583890390798648"
-        },
-        {
-          "file": "libs/ui/tsconfig.lib.json",
-          "hash": "6750625921117520019"
-        },
-        {
-          "file": "libs/ui/tsconfig.spec.json",
-          "hash": "11575178531540047385"
-        },
-        {
-          "file": "libs/ui/vite.config.ts",
-          "hash": "12451287124665257871",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:vite-plugin-dts",
-            "npm:@nx/vite"
-          ]
-        }
       ]
-    }
+    },
+    "nonProjectFiles": []
   }
 }
