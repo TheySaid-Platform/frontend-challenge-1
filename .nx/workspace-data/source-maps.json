@@ -1,4 +1,1142 @@
 {
+  "apps/todo-e2e": {
+    "root": [
+      "apps/todo-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/todo-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "projectType": [
+      "apps/todo-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI)": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).0": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).1": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.cache": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.inputs": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.outputs": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.dependsOn": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.configurations": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.executor": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options.env": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.configurations.production": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.configurations.production.command": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.outputs": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.inputs": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.cache": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.dependsOn": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.executor": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options.cwd": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options.env": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options.command": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.technologies": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.technologies.0": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.description": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help.command": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help.example": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.executor": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options.cwd": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options.command": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.technologies": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.technologies.0": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.description": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help.command": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help.example": [
+      "apps/todo-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "name": [
+      "apps/todo-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/todo-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/todo-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "apps/todo-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/todo-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/todo-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.todo": [
+      "apps/todo-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/interfaces": {
+    "root": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "libs/interfaces/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.env": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "libs/interfaces/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "name": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/interfaces/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "libs/interfaces/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/interfaces/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/interfaces/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/interfaces/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/interfaces/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/interfaces/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "libs/interfaces/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/ui": {
+    "root": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "libs/ui/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "projectType": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.cache": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.inputs": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.outputs": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.executor": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.continuous": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.executor": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.cwd": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies.0": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.description": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.example": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.deprecated": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.continuous": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.executor": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies.0": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.description": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.example": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.continuous": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.continuous": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "libs/ui/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.env": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "libs/ui/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "name": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/ui/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "libs/ui/project.json",
+      "nx/core/project-json"
+    ]
+  },
   "apps/todo": {
     "root": [
       "apps/todo/project.json",
@@ -494,376 +1632,6 @@
     ],
     "tags": [
       "apps/todo/project.json",
-      "nx/core/project-json"
-    ]
-  },
-  "apps/todo-e2e": {
-    "root": [
-      "apps/todo-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.cache": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.options": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.inputs": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.outputs": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.executor": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.options.cwd": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.options.command": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.technologies": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.technologies.0": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.description": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.help": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.help.command": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.help.example": [
-      "apps/todo-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "projectType": [
-      "apps/todo-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "metadata.targetGroups": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "metadata.targetGroups.E2E (CI)": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "metadata.targetGroups.E2E (CI).0": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "metadata.targetGroups.E2E (CI).1": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.options": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.cache": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.inputs": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.outputs": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.metadata": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.dependsOn": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.configurations": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.executor": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.options.cwd": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.options.env": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.options.command": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.configurations.production": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.configurations.production.command": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.metadata.technologies": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.metadata.technologies.0": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.metadata.description": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.metadata.help": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.metadata.help.command": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e.metadata.help.example": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.outputs": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.inputs": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.cache": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.options": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.metadata": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.dependsOn": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.executor": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.options.cwd": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.options.env": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.options.command": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.technologies": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.technologies.0": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.description": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help.command": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help.example": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.executor": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.cache": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.inputs": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.outputs": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.dependsOn": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.metadata": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.metadata.technologies": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.metadata.technologies.0": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.metadata.description": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.metadata.nonAtomizedTarget": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.metadata.help": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.metadata.help.command": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.e2e-ci.metadata.help.example": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.options": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.metadata": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.executor": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.options.cwd": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.options.command": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.metadata.technologies": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.metadata.technologies.0": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.metadata.description": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.metadata.help": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.metadata.help.command": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "targets.open-cypress.metadata.help.example": [
-      "apps/todo-e2e/cypress.config.ts",
-      "@nx/cypress/plugin"
-    ],
-    "name": [
-      "apps/todo-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "apps/todo-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "apps/todo-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "// targets": [
-      "apps/todo-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "apps/todo-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies": [
-      "apps/todo-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies.todo": [
-      "apps/todo-e2e/project.json",
       "nx/core/project-json"
     ]
   },

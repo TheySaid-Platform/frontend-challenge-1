@@ -58,6 +58,7 @@
     }
   ],
   "fileMap": {
+    "nonProjectFiles": [],
     "projectFileMap": {
       "frontend-challenge": [
         {
@@ -100,15 +101,15 @@
         },
         {
           "file": "nx.json",
-          "hash": "3778483098325285725"
+          "hash": "1607801024582767146"
         },
         {
           "file": "package-lock.json",
-          "hash": "8173836468800718622"
+          "hash": "12503144553387222674"
         },
         {
           "file": "package.json",
-          "hash": "15710314527509653515",
+          "hash": "13476683573490669085",
           "deps": [
             "npm:@babel/core",
             "npm:@babel/preset-react",
@@ -159,6 +160,7 @@
             "npm:typescript",
             "npm:typescript-eslint",
             "npm:vite",
+            "npm:vite-plugin-dts",
             "npm:vitest",
             "npm:ajv",
             "npm:react",
@@ -167,7 +169,98 @@
         },
         {
           "file": "tsconfig.base.json",
-          "hash": "16936441711144470533"
+          "hash": "15658095488402938073"
+        }
+      ],
+      "ui": [
+        {
+          "file": "libs/ui/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "libs/ui/README.md",
+          "hash": "12971312433074001572"
+        },
+        {
+          "file": "libs/ui/eslint.config.mjs",
+          "hash": "8789163670399984295",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "libs/ui/jest.config.ts",
+          "hash": "16071852883579489248"
+        },
+        {
+          "file": "libs/ui/package.json",
+          "hash": "2388279505852251753"
+        },
+        {
+          "file": "libs/ui/project.json",
+          "hash": "12196302964876651695"
+        },
+        {
+          "file": "libs/ui/src/index.ts",
+          "hash": "7962229010881063460"
+        },
+        {
+          "file": "libs/ui/src/lib/button.spec.tsx",
+          "hash": "3113427159981638380",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/button.tsx",
+          "hash": "15249866416407854031"
+        },
+        {
+          "file": "libs/ui/src/lib/input.spec.tsx",
+          "hash": "6935492646402137776",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/input.tsx",
+          "hash": "14079182723972944280",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/ui.spec.tsx",
+          "hash": "7298740781061202243",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/ui.tsx",
+          "hash": "17199599676541674568"
+        },
+        {
+          "file": "libs/ui/tsconfig.json",
+          "hash": "10374583890390798648"
+        },
+        {
+          "file": "libs/ui/tsconfig.lib.json",
+          "hash": "6750625921117520019"
+        },
+        {
+          "file": "libs/ui/tsconfig.spec.json",
+          "hash": "11575178531540047385"
+        },
+        {
+          "file": "libs/ui/vite.config.ts",
+          "hash": "12451287124665257871",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
         }
       ],
       "todo-e2e": [
@@ -215,6 +308,69 @@
           "hash": "10740392072068377465"
         }
       ],
+      "interfaces": [
+        {
+          "file": "libs/interfaces/README.md",
+          "hash": "1012133926719352218"
+        },
+        {
+          "file": "libs/interfaces/eslint.config.mjs",
+          "hash": "14634604848122713053",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/interfaces/jest.config.ts",
+          "hash": "5482698656149272854"
+        },
+        {
+          "file": "libs/interfaces/package.json",
+          "hash": "6563008949047888500",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/interfaces/project.json",
+          "hash": "11959627443476632161"
+        },
+        {
+          "file": "libs/interfaces/src/index.ts",
+          "hash": "1033932344745223611"
+        },
+        {
+          "file": "libs/interfaces/src/lib/interfaces.spec.ts",
+          "hash": "2777338368928230970"
+        },
+        {
+          "file": "libs/interfaces/src/lib/interfaces.ts",
+          "hash": "7660370906711478429"
+        },
+        {
+          "file": "libs/interfaces/src/lib/todo.spec.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/interfaces/src/lib/todo.ts",
+          "hash": "11108307502501590054"
+        },
+        {
+          "file": "libs/interfaces/tsconfig.json",
+          "hash": "12975668481162286788"
+        },
+        {
+          "file": "libs/interfaces/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "libs/interfaces/tsconfig.spec.json",
+          "hash": "6622138706846345436"
+        }
+      ],
       "todo": [
         {
           "file": "apps/todo/eslint.config.mjs",
@@ -252,7 +408,24 @@
         },
         {
           "file": "apps/todo/src/app/app.tsx",
-          "hash": "17885253617170433128"
+          "hash": "10698077245886059160",
+          "deps": [
+            "ui"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/components/todo-item.spec.tsx",
+          "hash": "8379785162985741930",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/components/todo-item.tsx",
+          "hash": "4949049032866485377",
+          "deps": [
+            "interfaces"
+          ]
         },
         {
           "file": "apps/todo/src/app/nx-welcome.tsx",
@@ -303,7 +476,6 @@
           ]
         }
       ]
-    },
-    "nonProjectFiles": []
+    }
   }
 }
