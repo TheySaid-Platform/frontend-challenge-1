@@ -1,5 +1,513 @@
 {
   "nodes": {
+    "todo-e2e": {
+      "name": "todo-e2e",
+      "type": "e2e",
+      "data": {
+        "root": "apps/todo-e2e",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "apps/todo-e2e",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.mjs",
+              "{projectRoot}/eslint.config.mjs",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "npx eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "e2e": {
+            "options": {
+              "cwd": "apps/todo-e2e",
+              "env": {
+                "TS_NODE_COMPILER_OPTIONS": "{\"customConditions\":null}"
+              },
+              "command": "cypress run"
+            },
+            "cache": true,
+            "inputs": [
+              "default",
+              "^default",
+              {
+                "externalDependencies": [
+                  "cypress"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}/dist/cypress/apps/todo-e2e/videos",
+              "{workspaceRoot}/dist/cypress/apps/todo-e2e/screenshots"
+            ],
+            "metadata": {
+              "technologies": [
+                "cypress"
+              ],
+              "description": "Runs Cypress Tests",
+              "help": {
+                "command": "npx cypress run --help",
+                "example": {
+                  "args": [
+                    "--dev",
+                    "--headed"
+                  ]
+                }
+              }
+            },
+            "dependsOn": [
+              {
+                "projects": [
+                  "todo"
+                ],
+                "target": "dev"
+              }
+            ],
+            "configurations": {
+              "production": {
+                "command": "cypress run --env webServerCommand=\"npx nx run todo:preview\""
+              }
+            },
+            "executor": "nx:run-commands",
+            "parallelism": true
+          },
+          "e2e-ci--src/e2e/app.cy.ts": {
+            "outputs": [
+              "{workspaceRoot}\\dist\\cypress\\apps\\todo-e2e\\videos\\src-e2e-app-cy-ts",
+              "{workspaceRoot}\\dist\\cypress\\apps\\todo-e2e\\screenshots\\src-e2e-app-cy-ts"
+            ],
+            "inputs": [
+              "default",
+              "^default",
+              {
+                "externalDependencies": [
+                  "cypress"
+                ]
+              }
+            ],
+            "cache": true,
+            "options": {
+              "cwd": "apps/todo-e2e",
+              "env": {
+                "TS_NODE_COMPILER_OPTIONS": "{\"customConditions\":null}"
+              },
+              "command": "cypress run --env webServerCommand=\"npx nx run todo:preview\" --spec src/e2e/app.cy.ts --config=\"{\\\"baseUrl\\\":\\\"http://localhost:4300\\\",\\\"e2e\\\":{\\\"videosFolder\\\":\\\"..\\\\\\\\..\\\\\\\\dist\\\\\\\\cypress\\\\\\\\apps\\\\\\\\todo-e2e\\\\\\\\videos\\\\\\\\src-e2e-app-cy-ts\\\",\\\"screenshotsFolder\\\":\\\"..\\\\\\\\..\\\\\\\\dist\\\\\\\\cypress\\\\\\\\apps\\\\\\\\todo-e2e\\\\\\\\screenshots\\\\\\\\src-e2e-app-cy-ts\\\"}}\""
+            },
+            "metadata": {
+              "technologies": [
+                "cypress"
+              ],
+              "description": "Runs Cypress Tests in src/e2e/app.cy.ts in CI",
+              "help": {
+                "command": "npx cypress run --help",
+                "example": {
+                  "args": [
+                    "--dev",
+                    "--headed"
+                  ]
+                }
+              }
+            },
+            "dependsOn": [
+              {
+                "target": "preview",
+                "projects": [
+                  "todo"
+                ]
+              }
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "e2e-ci": {
+            "executor": "nx:noop",
+            "cache": true,
+            "inputs": [
+              "default",
+              "^default",
+              {
+                "externalDependencies": [
+                  "cypress"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}/dist/cypress/apps/todo-e2e/videos",
+              "{workspaceRoot}/dist/cypress/apps/todo-e2e/screenshots"
+            ],
+            "dependsOn": [
+              {
+                "target": "e2e-ci--src/e2e/app.cy.ts",
+                "projects": "self",
+                "params": "forward"
+              }
+            ],
+            "metadata": {
+              "technologies": [
+                "cypress"
+              ],
+              "description": "Runs Cypress Tests in CI",
+              "nonAtomizedTarget": "e2e",
+              "help": {
+                "command": "npx cypress run --help",
+                "example": {
+                  "args": [
+                    "--dev",
+                    "--headed"
+                  ]
+                }
+              }
+            },
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "open-cypress": {
+            "options": {
+              "cwd": "apps/todo-e2e",
+              "command": "cypress open"
+            },
+            "metadata": {
+              "technologies": [
+                "cypress"
+              ],
+              "description": "Opens Cypress",
+              "help": {
+                "command": "npx cypress open --help",
+                "example": {
+                  "args": [
+                    "--dev",
+                    "--e2e"
+                  ]
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "projectType": "application",
+        "metadata": {
+          "targetGroups": {
+            "E2E (CI)": [
+              "e2e-ci--src/e2e/app.cy.ts",
+              "e2e-ci"
+            ]
+          }
+        },
+        "name": "todo-e2e",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/todo-e2e/src",
+        "tags": [],
+        "implicitDependencies": [
+          "todo"
+        ]
+      }
+    },
+    "todo": {
+      "name": "todo",
+      "type": "app",
+      "data": {
+        "root": "apps/todo",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "apps/todo",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.mjs",
+              "{projectRoot}/eslint.config.mjs",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "npx eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "options": {
+              "cwd": "apps/todo",
+              "command": "vite build"
+            },
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "default",
+              "^default",
+              {
+                "externalDependencies": [
+                  "vite"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}\\dist\\apps\\todo"
+            ],
+            "metadata": {
+              "technologies": [
+                "vite"
+              ],
+              "description": "Run Vite build",
+              "help": {
+                "command": "npx vite build --help",
+                "example": {
+                  "options": {
+                    "sourcemap": true,
+                    "manifest": "manifest.json"
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve": {
+            "continuous": true,
+            "options": {
+              "cwd": "apps/todo",
+              "command": "vite"
+            },
+            "metadata": {
+              "technologies": [
+                "vite"
+              ],
+              "description": "Starts Vite dev server",
+              "help": {
+                "command": "npx vite --help",
+                "example": {
+                  "options": {
+                    "port": 3000
+                  }
+                }
+              },
+              "deprecated": "Use devTargetName instead. This option will be removed in Nx 22."
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "dev": {
+            "continuous": true,
+            "options": {
+              "cwd": "apps/todo",
+              "command": "vite"
+            },
+            "metadata": {
+              "technologies": [
+                "vite"
+              ],
+              "description": "Starts Vite dev server",
+              "help": {
+                "command": "npx vite --help",
+                "example": {
+                  "options": {
+                    "port": 3000
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "preview": {
+            "continuous": true,
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "cwd": "apps/todo",
+              "command": "vite preview"
+            },
+            "metadata": {
+              "technologies": [
+                "vite"
+              ],
+              "description": "Locally preview Vite production build",
+              "help": {
+                "command": "npx vite preview --help",
+                "example": {
+                  "options": {
+                    "port": 3000
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve-static": {
+            "continuous": true,
+            "executor": "@nx/web:file-server",
+            "options": {
+              "buildTarget": "build",
+              "spa": true
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "typecheck": {
+            "cache": true,
+            "inputs": [
+              "default",
+              "^default",
+              {
+                "externalDependencies": [
+                  "typescript"
+                ]
+              }
+            ],
+            "options": {
+              "cwd": "apps/todo",
+              "command": "tsc --noEmit -p tsconfig.app.json"
+            },
+            "metadata": {
+              "description": "Runs type-checking for the project.",
+              "technologies": [
+                "typescript"
+              ],
+              "help": {
+                "command": "npx tsc -p tsconfig.app.json --help",
+                "example": {
+                  "options": {
+                    "noEmit": true
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "build-deps": {
+            "dependsOn": [
+              "^build"
+            ],
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "executor": "nx:noop"
+          },
+          "watch-deps": {
+            "continuous": true,
+            "dependsOn": [
+              "build-deps"
+            ],
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "npx nx watch --projects todo --includeDependentProjects -- npx nx build-deps todo"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "options": {
+              "cwd": "apps/todo",
+              "env": {
+                "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"commonjs\",\"customConditions\":null}"
+              },
+              "command": "jest"
+            },
+            "metadata": {
+              "technologies": [
+                "jest"
+              ],
+              "description": "Run Jest Tests",
+              "help": {
+                "command": "npx jest --help",
+                "example": {
+                  "options": {
+                    "coverage": true
+                  }
+                }
+              }
+            },
+            "cache": true,
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}\\jest.preset.js",
+              {
+                "externalDependencies": [
+                  "jest"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}\\coverage\\apps\\todo"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "projectType": "application",
+        "metadata": {},
+        "name": "todo",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/todo/src",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    },
     "frontend-challenge": {
       "name": "frontend-challenge",
       "type": "lib",
@@ -12625,7 +13133,96 @@
     }
   },
   "dependencies": {
+    "todo-e2e": [
+      {
+        "source": "todo-e2e",
+        "target": "todo",
+        "type": "implicit"
+      },
+      {
+        "source": "todo-e2e",
+        "target": "npm:@nx/cypress",
+        "type": "static"
+      },
+      {
+        "source": "todo-e2e",
+        "target": "npm:cypress",
+        "type": "static"
+      },
+      {
+        "source": "todo-e2e",
+        "target": "npm:eslint-plugin-cypress",
+        "type": "static"
+      }
+    ],
+    "todo": [
+      {
+        "source": "todo",
+        "target": "npm:@nx/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "todo",
+        "target": "npm:@testing-library/react",
+        "type": "static"
+      },
+      {
+        "source": "todo",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "todo",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "todo",
+        "target": "npm:@nx/react",
+        "type": "static"
+      },
+      {
+        "source": "todo",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "todo",
+        "target": "npm:@vitejs/plugin-react",
+        "type": "static"
+      },
+      {
+        "source": "todo",
+        "target": "npm:@nx/vite",
+        "type": "static"
+      }
+    ],
     "frontend-challenge": [
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@nx/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:jest",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@nx/jest",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@eslint/js",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@nx/cypress",
+        "type": "static"
+      },
       {
         "source": "frontend-challenge",
         "target": "npm:@nx/eslint",
@@ -12643,7 +13240,27 @@
       },
       {
         "source": "frontend-challenge",
+        "target": "npm:@nx/vite",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
         "target": "npm:@nx/web",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@swc-node/register",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@swc/cli",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@swc/core",
         "type": "static"
       },
       {
@@ -12653,7 +13270,107 @@
       },
       {
         "source": "frontend-challenge",
+        "target": "npm:@testing-library/dom",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@testing-library/react",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@types/jest",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
         "target": "npm:@types/node",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@types/react",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@types/react-dom",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@vitejs/plugin-react",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:@vitest/ui",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:autoprefixer",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:babel-jest",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:cypress",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:eslint-config-prettier",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:eslint-plugin-cypress",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:eslint-plugin-import",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:eslint-plugin-jsx-a11y",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:eslint-plugin-react",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:eslint-plugin-react-hooks",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:jest-environment-jsdom",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:jiti",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:jsdom",
         "type": "static"
       },
       {
@@ -12663,7 +13380,52 @@
       },
       {
         "source": "frontend-challenge",
+        "target": "npm:postcss",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:prettier",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:tailwindcss",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:ts-jest",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:ts-node",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
         "target": "npm:tslib",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:typescript-eslint",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:vitest",
         "type": "static"
       },
       {
@@ -30258,5 +31020,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1745800057546
+  "computedAt": 1745804903669
 }

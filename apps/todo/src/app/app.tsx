@@ -3,7 +3,8 @@ import NxWelcome from './nx-welcome';
 export function App() {
   return (
     <div>
-      <NxWelcome title="todo" />
+      <p className="underline">Here is the todo app</p>
+      {/* <NxWelcome title="todo" /> */}
     </div>
   );
 }
