@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run todo:test",
+    "startTime": "2025-04-28T15:04:06.990Z",
+    "endTime": "2025-04-28T15:04:25.583Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "todo:test",
+      "target": "test",
+      "projectName": "todo",
+      "hash": "5195283301074283445",
+      "startTime": "2025-04-28T15:04:07.058Z",
+      "endTime": "2025-04-28T15:04:25.580Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

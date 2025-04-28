@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\stsho\\AppData\\Local\\Temp\\dbc971d4b4d67ec3bd09\\d.sock',
+  port: -1
+}
+
+Node.js v22.14.0
+[NX v20.8.1 Daemon Server] - 2025-04-28T14:21:25.159Z - Closed a connection. Number of open connections: 5
+[NX v20.8.1 Daemon Server] - 2025-04-28T14:21:25.159Z - Closed a connection. Number of open connections: 4
+[NX v20.8.1 Daemon Server] - 2025-04-28T14:21:25.160Z - Closed a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-04-28T14:21:25.160Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-04-28T14:21:25.161Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-04-28T14:21:25.161Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-04-28T14:21:25.162Z - [WATCHER]: Stopping the watcher for C:\Users\stsho\Desktop\job tests\frontend-challenge (sources)
+[NX v20.8.1 Daemon Server] - 2025-04-28T14:21:25.163Z - [WATCHER]: Stopping the watcher for C:\Users\stsho\Desktop\job tests\frontend-challenge (outputs)
+[NX v20.8.1 Daemon Server] - 2025-04-28T14:21:25.177Z - Server stopped because: "this process is no longer the current daemon (native)"
+
+
+
+More information: c:\Users\stsho\Desktop\job tests\frontend-challenge\.nx\workspace-data\d\daemon.log

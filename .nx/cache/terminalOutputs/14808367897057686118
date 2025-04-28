@@ -1,0 +1,686 @@
+[2m> [22mvite
+
+
+  [32m[1mVITE[22m v6.3.3[39m  [2mready in [0m[1m2079[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m17:09:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:09:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:09:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:09:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:09:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:09:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:09:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:09:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:09:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:09:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:09:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:10:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:06[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\stsho\Desktop\job tests\frontend-challenge\apps\todo\src\app\components\todo-item.tsx: Unexpected token (9:6)
+
+[0m [90m  7 |[31m     [33m<[31m[33mdiv[31m className[33m=[31m[32m"w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200"[31m[33m>[31m
+ [90m  8 |[31m       [33m<[31m
+[31m[1m>[22m[31m[90m  9 |[31m       [33m<[31m[33mp[31m[33m>[31m{description}[33m<[31m[33m/[31m[33mp[31m[33m>[31m
+ [90m    |[31m       [31m[1m^[22m[31m
+ [90m 10 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 11 |[31m   )[33m;[31m
+ [90m 12 |[31m }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/stsho/Desktop/job tests/frontend-challenge/apps/todo/src/app/components/todo-item.tsx[39m:9:6
+[33m  7  |      <div className="w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200">
+  8  |        <
+  9  |        <p>{description}</p>
+     |        ^
+  10 |      </div>
+  11 |    );[39m
+      at constructor (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:360:19)
+      at TypeScriptParserMixin.raise (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3338:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3358:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6755:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6762:23)
+      at TypeScriptParserMixin.jsxParseElementName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6771:21)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6847:22)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6872:33)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6884:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6935:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6945:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:39
+      at TypeScriptParserMixin.tryParse (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3676:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:18)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11386:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9639:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10491:23)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12121:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12806:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12463:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9365:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12432:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12412:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12980:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12973:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12961:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11810:24)
+[2m17:14:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:11[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\stsho\Desktop\job tests\frontend-challenge\apps\todo\src\app\components\todo-item.tsx: Unexpected token, expected "..." (10:10)
+
+[0m [90m  8 |[31m     [33m<[31m[33mdiv[31m className[33m=[31m[32m"w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200"[31m[33m>[31m
+ [90m  9 |[31m       [33m<[31m[33mCheckbox[31m 
+[31m[1m>[22m[31m[90m 10 |[31m       [33m<[31m[33mp[31m[33m>[31m{description}[33m<[31m[33m/[31m[33mp[31m[33m>[31m
+ [90m    |[31m           [31m[1m^[22m[31m
+ [90m 11 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 12 |[31m   )[33m;[31m
+ [90m 13 |[31m }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/stsho/Desktop/job tests/frontend-challenge/apps/todo/src/app/components/todo-item.tsx[39m:10:10
+[33m  8  |      <div className="w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200">
+  9  |        <Checkbox 
+  10 |        <p>{description}</p>
+     |            ^
+  11 |      </div>
+  12 |    );[39m
+      at constructor (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:360:19)
+      at TypeScriptParserMixin.raise (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3338:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3358:16)
+      at TypeScriptParserMixin.expect (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3668:12)
+      at TypeScriptParserMixin.jsxParseAttribute (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6831:12)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6853:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9900:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6848:17)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6872:33)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6884:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6935:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6945:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:39
+      at TypeScriptParserMixin.tryParse (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3676:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:18)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11386:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9639:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10491:23)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12121:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12806:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12463:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9365:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12432:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12412:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12980:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12973:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12961:10)
+[2m17:14:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:21[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\stsho\Desktop\job tests\frontend-challenge\apps\todo\src\app\components\todo-item.tsx: JSX attributes must only be assigned a non-empty expression. (9:45)
+
+[0m [90m  7 |[31m   [36mreturn[31m (
+ [90m  8 |[31m     [33m<[31m[33mdiv[31m className[33m=[31m[32m"w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200"[31m[33m>[31m
+[31m[1m>[22m[31m[90m  9 |[31m       [33m<[31m[33mCheckbox[31m checked[33m=[31m{completed} onChange[33m=[31m{} [33m/[31m[33m>[31m
+ [90m    |[31m                                              [31m[1m^[22m[31m
+ [90m 10 |[31m       [33m<[31m[33mp[31m[33m>[31m{description}[33m<[31m[33m/[31m[33mp[31m[33m>[31m
+ [90m 11 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 12 |[31m   )[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/stsho/Desktop/job tests/frontend-challenge/apps/todo/src/app/components/todo-item.tsx[39m:9:45
+[33m  7  |    return (
+  8  |      <div className="w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200">
+  9  |        <Checkbox checked={completed} onChange={} />
+     |                                               ^
+  10 |        <p>{description}</p>
+  11 |      </div>[39m
+      at constructor (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:360:19)
+      at TypeScriptParserMixin.raise (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3338:19)
+      at TypeScriptParserMixin.jsxParseAttributeValue (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6792:16)
+      at TypeScriptParserMixin.jsxParseAttribute (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6839:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6853:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9900:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6848:17)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6872:33)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6884:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6935:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6945:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:39
+      at TypeScriptParserMixin.tryParse (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3676:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:18)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11386:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9639:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10491:23)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12121:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12806:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12463:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9365:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12432:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12412:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12980:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12973:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12961:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11810:24)
+[2m17:14:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:25[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\stsho\Desktop\job tests\frontend-challenge\apps\todo\src\app\components\todo-item.tsx: Unexpected token (9:48)
+
+[0m [90m  7 |[31m   [36mreturn[31m (
+ [90m  8 |[31m     [33m<[31m[33mdiv[31m className[33m=[31m[32m"w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200"[31m[33m>[31m
+[31m[1m>[22m[31m[90m  9 |[31m       [33m<[31m[33mCheckbox[31m checked[33m=[31m{completed} onChange[33m=[31m{ ()} [33m/[31m[33m>[31m
+ [90m    |[31m                                                 [31m[1m^[22m[31m
+ [90m 10 |[31m       [33m<[31m[33mp[31m[33m>[31m{description}[33m<[31m[33m/[31m[33mp[31m[33m>[31m
+ [90m 11 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 12 |[31m   )[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/stsho/Desktop/job tests/frontend-challenge/apps/todo/src/app/components/todo-item.tsx[39m:9:48
+[33m  7  |    return (
+  8  |      <div className="w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200">
+  9  |        <Checkbox checked={completed} onChange={ ()} />
+     |                                                  ^
+  10 |        <p>{description}</p>
+  11 |      </div>[39m
+      at constructor (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:360:19)
+      at TypeScriptParserMixin.raise (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3338:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3358:16)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11403:12)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9639:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10491:23)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6818:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6790:21)
+      at TypeScriptParserMixin.jsxParseAttribute (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6839:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6853:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9900:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6848:17)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6872:33)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6884:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6935:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6945:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:39
+      at TypeScriptParserMixin.tryParse (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3676:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:18)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11386:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+[2m17:14:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:26[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\stsho\Desktop\job tests\frontend-challenge\apps\todo\src\app\components\todo-item.tsx: Unexpected token (9:47)
+
+[0m [90m  7 |[31m   [36mreturn[31m (
+ [90m  8 |[31m     [33m<[31m[33mdiv[31m className[33m=[31m[32m"w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200"[31m[33m>[31m
+[31m[1m>[22m[31m[90m  9 |[31m       [33m<[31m[33mCheckbox[31m checked[33m=[31m{completed} onChange[33m=[31m{()} [33m/[31m[33m>[31m
+ [90m    |[31m                                                [31m[1m^[22m[31m
+ [90m 10 |[31m       [33m<[31m[33mp[31m[33m>[31m{description}[33m<[31m[33m/[31m[33mp[31m[33m>[31m
+ [90m 11 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 12 |[31m   )[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/stsho/Desktop/job tests/frontend-challenge/apps/todo/src/app/components/todo-item.tsx[39m:9:47
+[33m  7  |    return (
+  8  |      <div className="w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200">
+  9  |        <Checkbox checked={completed} onChange={()} />
+     |                                                 ^
+  10 |        <p>{description}</p>
+  11 |      </div>[39m
+      at constructor (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:360:19)
+      at TypeScriptParserMixin.raise (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3338:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3358:16)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11403:12)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9639:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10491:23)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6818:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6790:21)
+      at TypeScriptParserMixin.jsxParseAttribute (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6839:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6853:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9900:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6848:17)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6872:33)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6884:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6935:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6945:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:39
+      at TypeScriptParserMixin.tryParse (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3676:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:18)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11386:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+[2m17:14:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:53[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\stsho\Desktop\job tests\frontend-challenge\apps\todo\src\app\components\todo-item.tsx: Unexpected token (10:6)
+
+[0m [90m  8 |[31m     [33m<[31m[33mdiv[31m className[33m=[31m[32m"w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200"[31m[33m>[31m
+ [90m  9 |[31m       [33m<[31m
+[31m[1m>[22m[31m[90m 10 |[31m       [33m<[31m[33mCheckbox[31m checked[33m=[31m{completed} onChange[33m=[31m{(e) [33m=>[31m {}} [33m/[31m[33m>[31m
+ [90m    |[31m       [31m[1m^[22m[31m
+ [90m 11 |[31m       [33m<[31m[33mp[31m[33m>[31m{description}[33m<[31m[33m/[31m[33mp[31m[33m>[31m
+ [90m 12 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 13 |[31m   )[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/stsho/Desktop/job tests/frontend-challenge/apps/todo/src/app/components/todo-item.tsx[39m:10:6
+[33m  8  |      <div className="w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200">
+  9  |        <
+  10 |        <Checkbox checked={completed} onChange={(e) => {}} />
+     |        ^
+  11 |        <p>{description}</p>
+  12 |      </div>[39m
+      at constructor (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:360:19)
+      at TypeScriptParserMixin.raise (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3338:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3358:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6755:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6762:23)
+      at TypeScriptParserMixin.jsxParseElementName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6771:21)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6847:22)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6872:33)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6884:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6935:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6945:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:39
+      at TypeScriptParserMixin.tryParse (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3676:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:18)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11386:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9639:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10491:23)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12121:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12806:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12463:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9365:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12432:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12412:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12980:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12973:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12961:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11810:24)
+[2m17:14:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:14:55[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\stsho\Desktop\job tests\frontend-challenge\apps\todo\src\app\components\todo-item.tsx: Unexpected token (10:6)
+
+[0m [90m  8 |[31m     [33m<[31m[33mdiv[31m className[33m=[31m[32m"w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200"[31m[33m>[31m
+ [90m  9 |[31m       [33m<[31m[36mdo[31m
+[31m[1m>[22m[31m[90m 10 |[31m       [33m<[31m[33mCheckbox[31m checked[33m=[31m{completed} onChange[33m=[31m{(e) [33m=>[31m {}} [33m/[31m[33m>[31m
+ [90m    |[31m       [31m[1m^[22m[31m
+ [90m 11 |[31m       [33m<[31m[33mp[31m[33m>[31m{description}[33m<[31m[33m/[31m[33mp[31m[33m>[31m
+ [90m 12 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 13 |[31m   )[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/stsho/Desktop/job tests/frontend-challenge/apps/todo/src/app/components/todo-item.tsx[39m:10:6
+[33m  8  |      <div className="w-full flex gap-4 items-center justify-between p-4 border-b border-gray-200">
+  9  |        <do
+  10 |        <Checkbox checked={completed} onChange={(e) => {}} />
+     |        ^
+  11 |        <p>{description}</p>
+  12 |      </div>[39m
+      at constructor (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:360:19)
+      at TypeScriptParserMixin.raise (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3338:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3358:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6755:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6762:23)
+      at TypeScriptParserMixin.jsxParseAttribute (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6838:22)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6853:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9900:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6848:17)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6872:33)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6884:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6935:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6945:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:39
+      at TypeScriptParserMixin.tryParse (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3676:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:18)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11386:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9639:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10491:23)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12121:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12806:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12463:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9365:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12432:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12412:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12980:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12973:10)
+[2m17:14:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:02[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\stsho\Desktop\job tests\frontend-challenge\apps\todo\src\app\components\todo-item.tsx: Unterminated JSX contents. (13:10)
+
+[0m [90m 11 |[31m       [33m<[31m[33mCheckbox[31m checked[33m=[31m{completed} onChange[33m=[31m{(e) [33m=>[31m {}} [33m/[31m[33m>[31m
+ [90m 12 |[31m       [33m<[31m[33mp[31m[33m>[31m{description}[33m<[31m[33m/[31m[33mp[31m[33m>[31m
+[31m[1m>[22m[31m[90m 13 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m    |[31m           [31m[1m^[22m[31m
+ [90m 14 |[31m   )[33m;[31m
+ [90m 15 |[31m }
+ [90m 16 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/stsho/Desktop/job tests/frontend-challenge/apps/todo/src/app/components/todo-item.tsx[39m:13:10
+[33m  11 |        <Checkbox checked={completed} onChange={(e) => {}} />
+  12 |        <p>{description}</p>
+  13 |      </div>
+     |            ^
+  14 |    );
+  15 |  }[39m
+      at constructor (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:360:19)
+      at TypeScriptParserMixin.raise (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3338:19)
+      at TypeScriptParserMixin.jsxReadToken (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6634:20)
+      at TypeScriptParserMixin.getTokenFromCode (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6960:12)
+      at TypeScriptParserMixin.getTokenFromCode (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9842:11)
+      at TypeScriptParserMixin.nextToken (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:2521:10)
+      at TypeScriptParserMixin.next (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:2434:10)
+      at TypeScriptParserMixin.eat (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:2438:12)
+      at TypeScriptParserMixin.expect (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3667:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6866:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6881:37)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6884:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6935:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6945:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:39
+      at TypeScriptParserMixin.tryParse (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3676:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:18)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11386:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9639:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10491:23)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12121:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12806:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12463:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9365:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12432:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12412:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12980:61)
+[2m17:15:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:05[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\stsho\Desktop\job tests\frontend-challenge\apps\todo\src\app\components\todo-item.tsx: Unterminated JSX contents. (13:10)
+
+[0m [90m 11 |[31m       [33m<[31m[33mCheckbox[31m checked[33m=[31m{completed} onChange[33m=[31m{(e) [33m=>[31m {}} [33m/[31m[33m>[31m
+ [90m 12 |[31m       [33m<[31m[33mp[31m[33m>[31m{description}[33m<[31m[33m/[31m[33mp[31m[33m>[31m
+[31m[1m>[22m[31m[90m 13 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m    |[31m           [31m[1m^[22m[31m
+ [90m 14 |[31m   )[33m;[31m
+ [90m 15 |[31m }
+ [90m 16 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/stsho/Desktop/job tests/frontend-challenge/apps/todo/src/app/components/todo-item.tsx[39m:13:10
+[33m  11 |        <Checkbox checked={completed} onChange={(e) => {}} />
+  12 |        <p>{description}</p>
+  13 |      </div>
+     |            ^
+  14 |    );
+  15 |  }[39m
+      at constructor (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:360:19)
+      at TypeScriptParserMixin.raise (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3338:19)
+      at TypeScriptParserMixin.jsxReadToken (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6634:20)
+      at TypeScriptParserMixin.getTokenFromCode (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6960:12)
+      at TypeScriptParserMixin.getTokenFromCode (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9842:11)
+      at TypeScriptParserMixin.nextToken (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:2521:10)
+      at TypeScriptParserMixin.next (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:2434:10)
+      at TypeScriptParserMixin.eat (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:2438:12)
+      at TypeScriptParserMixin.expect (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3667:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6866:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6881:37)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6884:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6935:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6945:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:39
+      at TypeScriptParserMixin.tryParse (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:3676:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9628:18)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12126:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10507:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11386:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:11033:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:6950:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10785:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10770:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10750:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9690:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10603:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10608:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10585:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10538:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9639:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10491:23)
+      at C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12121:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:10487:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12806:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12463:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:9365:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12432:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12412:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\@babel\parser\lib\index.js:12980:61)
+[2m17:15:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:15:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:19:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:19:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:19:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:19:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:19:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[2m17:19:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-item.tsx, /src/styles.css?direct[22m
+[1m[31mWatch error: Daemon closed the connection[39m[22m

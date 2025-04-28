@@ -11349,6 +11349,15 @@
         "hash": "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw=="
       }
     },
+    "npm:react-icons": {
+      "type": "npm",
+      "name": "npm:react-icons",
+      "data": {
+        "version": "5.5.0",
+        "packageName": "react-icons",
+        "hash": "sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw=="
+      }
+    },
     "npm:react-refresh": {
       "type": "npm",
       "name": "npm:react-refresh",
@@ -27607,6 +27616,11 @@
     {
       "source": "npm:react-dom",
       "target": "npm:scheduler",
+      "type": "static"
+    },
+    {
+      "source": "npm:react-icons",
+      "target": "npm:react",
       "type": "static"
     },
     {

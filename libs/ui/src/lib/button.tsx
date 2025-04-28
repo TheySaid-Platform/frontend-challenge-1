@@ -1,8 +1,12 @@
-export function Button() {
+export function Button(props: { children?: string; onClick?: () => void }) {
+  const { children, onClick } = props;
   return (
-    <div className="py-4 px-2 rounded-md bg-blue-500 text-white">
-      <h1>Welcome to Button!</h1>
-    </div>
+    <button
+      onClick={onClick}
+      className="px-4 py-2 rounded-sm bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+    >
+      {children}
+    </button>
   );
 }
 
