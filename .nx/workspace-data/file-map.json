@@ -202,7 +202,7 @@
         },
         {
           "file": "libs/ui/src/index.ts",
-          "hash": "705992611370941650"
+          "hash": "14234437165136588598"
         },
         {
           "file": "libs/ui/src/lib/button.spec.tsx",
@@ -230,6 +230,17 @@
           ]
         },
         {
+          "file": "libs/ui/src/lib/page-container.spec.tsx",
+          "hash": "4435856712825518679",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/page-container.tsx",
+          "hash": "5121110022124030110"
+        },
+        {
           "file": "libs/ui/src/lib/title.spec.tsx",
           "hash": "15883124272405615541",
           "deps": [
@@ -238,7 +249,7 @@
         },
         {
           "file": "libs/ui/src/lib/title.tsx",
-          "hash": "2851974147855664719",
+          "hash": "18136695737122537983",
           "deps": [
             "npm:react"
           ]
@@ -454,7 +465,7 @@
         },
         {
           "file": "apps/todo/src/app/pages/home.tsx",
-          "hash": "12486671423065725681",
+          "hash": "9820018621578948463",
           "deps": [
             "ui"
           ]
