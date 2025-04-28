@@ -1,8 +1,8 @@
 import { atom, SetterOrUpdater } from 'recoil';
 import { Todo } from '@todo/interfaces';
 
-export const todoList = atom<Todo[]>({
-  key: 'todoList',
+export const todoListState = atom<Todo[]>({
+  key: 'todoListState',
   default: [],
 });
 

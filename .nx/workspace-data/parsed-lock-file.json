@@ -4707,6 +4707,15 @@
         "hash": "sha512-/Ad8+nIOV7Rl++6f1BdKxFSMgmoqEoYbHRpPcx3JEfv8VRsQe9Z4mCXeJBzxs7mbHY/XOZZuXlRNfhpVPbs6ZA=="
       }
     },
+    "npm:@types/uuid": {
+      "type": "npm",
+      "name": "npm:@types/uuid",
+      "data": {
+        "version": "8.3.4",
+        "packageName": "@types/uuid",
+        "hash": "sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw=="
+      }
+    },
     "npm:@types/yargs": {
       "type": "npm",
       "name": "npm:@types/yargs",
@@ -11421,6 +11430,15 @@
         "hash": "sha512-8Og5KPQW9LwC577Vc7Ug2P0vQshkv1y3zG3tSSkWMqkWSwHmE+by06L8JtnGocjW6gcCvfwB3YtrJG6/tWivNQ=="
       }
     },
+    "npm:recoil-persist": {
+      "type": "npm",
+      "name": "npm:recoil-persist",
+      "data": {
+        "version": "5.1.0",
+        "packageName": "recoil-persist",
+        "hash": "sha512-sew4k3uBVJjRWKCSFuBw07Y1p1pBOb0UxLJPxn4G2bX/9xNj+r2xlqYy/BRfyofR/ANfqBU04MIvulppU4ZC0w=="
+      }
+    },
     "npm:reflect.getprototypeof": {
       "type": "npm",
       "name": "npm:reflect.getprototypeof",
@@ -12733,6 +12751,15 @@
         "version": "8.3.2",
         "packageName": "uuid",
         "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
+      }
+    },
+    "npm:uuidv4": {
+      "type": "npm",
+      "name": "npm:uuidv4",
+      "data": {
+        "version": "6.2.13",
+        "packageName": "uuidv4",
+        "hash": "sha512-AXyzMjazYB3ovL3q051VLH06Ixj//Knx7QnUSi1T//Ie3io6CpsPu9nVMOx5MoLWh6xV0B9J0hIaxungxXUbPQ=="
       }
     },
     "npm:v8-compile-cache-lib": {
@@ -27672,6 +27699,11 @@
       "type": "static"
     },
     {
+      "source": "npm:recoil-persist",
+      "target": "npm:recoil",
+      "type": "static"
+    },
+    {
       "source": "npm:reflect.getprototypeof",
       "target": "npm:call-bind",
       "type": "static"
@@ -29574,6 +29606,16 @@
     {
       "source": "npm:url-parse",
       "target": "npm:requires-port",
+      "type": "static"
+    },
+    {
+      "source": "npm:uuidv4",
+      "target": "npm:@types/uuid",
+      "type": "static"
+    },
+    {
+      "source": "npm:uuidv4",
+      "target": "npm:uuid",
       "type": "static"
     },
     {

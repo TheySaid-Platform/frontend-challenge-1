@@ -1,10 +1,13 @@
-import { todos } from '@todo/interfaces';
+import { useRecoilValue } from 'recoil';
 import TodoItem from './todo-item';
+import { todoListState } from '@todo/recoil-store';
 
 export function TodoList() {
+  const todoList = useRecoilValue(todoListState);
+
   return (
     <div className="grid grid-cols-1">
-      {todos.map((todo) => (
+      {todoList.map((todo) => (
         <TodoItem key={todo.id} todo={todo} />
       ))}
     </div>

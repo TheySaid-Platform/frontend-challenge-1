@@ -5692,6 +5692,15 @@
         "hash": "sha512-/Ad8+nIOV7Rl++6f1BdKxFSMgmoqEoYbHRpPcx3JEfv8VRsQe9Z4mCXeJBzxs7mbHY/XOZZuXlRNfhpVPbs6ZA=="
       }
     },
+    "npm:@types/uuid": {
+      "type": "npm",
+      "name": "npm:@types/uuid",
+      "data": {
+        "version": "8.3.4",
+        "packageName": "@types/uuid",
+        "hash": "sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw=="
+      }
+    },
     "npm:@types/yargs": {
       "type": "npm",
       "name": "npm:@types/yargs",
@@ -12406,6 +12415,15 @@
         "hash": "sha512-8Og5KPQW9LwC577Vc7Ug2P0vQshkv1y3zG3tSSkWMqkWSwHmE+by06L8JtnGocjW6gcCvfwB3YtrJG6/tWivNQ=="
       }
     },
+    "npm:recoil-persist": {
+      "type": "npm",
+      "name": "npm:recoil-persist",
+      "data": {
+        "version": "5.1.0",
+        "packageName": "recoil-persist",
+        "hash": "sha512-sew4k3uBVJjRWKCSFuBw07Y1p1pBOb0UxLJPxn4G2bX/9xNj+r2xlqYy/BRfyofR/ANfqBU04MIvulppU4ZC0w=="
+      }
+    },
     "npm:reflect.getprototypeof": {
       "type": "npm",
       "name": "npm:reflect.getprototypeof",
@@ -13720,6 +13738,15 @@
         "hash": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
       }
     },
+    "npm:uuidv4": {
+      "type": "npm",
+      "name": "npm:uuidv4",
+      "data": {
+        "version": "6.2.13",
+        "packageName": "uuidv4",
+        "hash": "sha512-AXyzMjazYB3ovL3q051VLH06Ixj//Knx7QnUSi1T//Ie3io6CpsPu9nVMOx5MoLWh6xV0B9J0hIaxungxXUbPQ=="
+      }
+    },
     "npm:v8-compile-cache-lib": {
       "type": "npm",
       "name": "npm:v8-compile-cache-lib",
@@ -14098,12 +14125,22 @@
       },
       {
         "source": "todo",
+        "target": "interfaces",
+        "type": "static"
+      },
+      {
+        "source": "todo",
         "target": "npm:react",
         "type": "static"
       },
       {
         "source": "todo",
-        "target": "interfaces",
+        "target": "npm:recoil",
+        "type": "static"
+      },
+      {
+        "source": "todo",
+        "target": "npm:uuid",
         "type": "static"
       },
       {
@@ -14114,11 +14151,6 @@
       {
         "source": "todo",
         "target": "npm:react-dom",
-        "type": "static"
-      },
-      {
-        "source": "todo",
-        "target": "npm:recoil",
         "type": "static"
       },
       {
@@ -14458,6 +14490,11 @@
       {
         "source": "frontend-challenge",
         "target": "npm:recoil",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:uuidv4",
         "type": "static"
       }
     ],
@@ -29737,6 +29774,13 @@
         "type": "static"
       }
     ],
+    "npm:recoil-persist": [
+      {
+        "source": "npm:recoil-persist",
+        "target": "npm:recoil",
+        "type": "static"
+      }
+    ],
     "npm:reflect.getprototypeof": [
       {
         "source": "npm:reflect.getprototypeof",
@@ -31750,6 +31794,18 @@
         "type": "static"
       }
     ],
+    "npm:uuidv4": [
+      {
+        "source": "npm:uuidv4",
+        "target": "npm:@types/uuid",
+        "type": "static"
+      },
+      {
+        "source": "npm:uuidv4",
+        "target": "npm:uuid",
+        "type": "static"
+      }
+    ],
     "npm:v8-to-istanbul": [
       {
         "source": "npm:v8-to-istanbul",
@@ -32647,5 +32703,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1745865990501
+  "computedAt": 1745873017377
 }
