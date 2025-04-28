@@ -1,7 +1,11 @@
 {
   "version": "6.0",
   "nxVersion": "20.8.1",
-  "pathMappings": {},
+  "pathMappings": {
+    "@todo/interfaces": [
+      "libs/interfaces/src/index.ts"
+    ]
+  },
   "nxJsonPlugins": [
     {
       "name": "@nx/react/router-plugin",
@@ -95,6 +99,94 @@
         {
           "file": "apps/todo-e2e/tsconfig.json",
           "hash": "10740392072068377465"
+        }
+      ],
+      "todo": [
+        {
+          "file": "apps/todo/eslint.config.mjs",
+          "hash": "8789163670399984295",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/todo/index.html",
+          "hash": "17435208345499494111"
+        },
+        {
+          "file": "apps/todo/jest.config.ts",
+          "hash": "7896169208443687197"
+        },
+        {
+          "file": "apps/todo/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "apps/todo/project.json",
+          "hash": "7307121165013743615"
+        },
+        {
+          "file": "apps/todo/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/todo/src/app/app.spec.tsx",
+          "hash": "8536434636909721562",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/app.tsx",
+          "hash": "17885253617170433128"
+        },
+        {
+          "file": "apps/todo/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "apps/todo/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/todo/src/main.tsx",
+          "hash": "6013565506688027592",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/todo/src/styles.css",
+          "hash": "9540575453073076294"
+        },
+        {
+          "file": "apps/todo/tailwind.config.js",
+          "hash": "13090734457927965885",
+          "deps": [
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "apps/todo/tsconfig.app.json",
+          "hash": "14768608741124992156"
+        },
+        {
+          "file": "apps/todo/tsconfig.json",
+          "hash": "824604371006306276"
+        },
+        {
+          "file": "apps/todo/tsconfig.spec.json",
+          "hash": "3305260514729189295"
+        },
+        {
+          "file": "apps/todo/vite.config.ts",
+          "hash": "16111580118149063420",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
         }
       ],
       "frontend-challenge": [
@@ -201,94 +293,6 @@
         {
           "file": "tsconfig.base.json",
           "hash": "16936441711144470533"
-        }
-      ],
-      "todo": [
-        {
-          "file": "apps/todo/eslint.config.mjs",
-          "hash": "8789163670399984295",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/todo/index.html",
-          "hash": "17435208345499494111"
-        },
-        {
-          "file": "apps/todo/jest.config.ts",
-          "hash": "7896169208443687197"
-        },
-        {
-          "file": "apps/todo/postcss.config.js",
-          "hash": "2759402739052110475"
-        },
-        {
-          "file": "apps/todo/project.json",
-          "hash": "7307121165013743615"
-        },
-        {
-          "file": "apps/todo/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/todo/src/app/app.spec.tsx",
-          "hash": "8536434636909721562",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/app.tsx",
-          "hash": "17885253617170433128"
-        },
-        {
-          "file": "apps/todo/src/app/nx-welcome.tsx",
-          "hash": "2348102959109701629"
-        },
-        {
-          "file": "apps/todo/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/todo/src/main.tsx",
-          "hash": "6013565506688027592",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/todo/src/styles.css",
-          "hash": "9540575453073076294"
-        },
-        {
-          "file": "apps/todo/tailwind.config.js",
-          "hash": "13090734457927965885",
-          "deps": [
-            "npm:@nx/react"
-          ]
-        },
-        {
-          "file": "apps/todo/tsconfig.app.json",
-          "hash": "14768608741124992156"
-        },
-        {
-          "file": "apps/todo/tsconfig.json",
-          "hash": "824604371006306276"
-        },
-        {
-          "file": "apps/todo/tsconfig.spec.json",
-          "hash": "3305260514729189295"
-        },
-        {
-          "file": "apps/todo/vite.config.ts",
-          "hash": "16111580118149063420",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
         }
       ]
     },
