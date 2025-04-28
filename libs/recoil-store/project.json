@@ -1,0 +1,19 @@
+{
+  "name": "recoil-store",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/recoil-store/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/recoil-store",
+        "main": "libs/recoil-store/src/index.ts",
+        "tsConfig": "libs/recoil-store/tsconfig.lib.json",
+        "assets": ["libs/recoil-store/*.md"]
+      }
+    }
+  }
+}

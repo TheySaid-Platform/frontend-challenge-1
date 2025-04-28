@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@todo/interfaces": ["libs/interfaces/src/index.ts"],
+      "@todo/recoil-store": ["libs/recoil-store/src/index.ts"],
       "@todo/ui": ["libs/ui/src/index.ts"]
     }
   },
