@@ -14098,12 +14098,12 @@
       },
       {
         "source": "todo",
-        "target": "interfaces",
+        "target": "npm:react",
         "type": "static"
       },
       {
         "source": "todo",
-        "target": "npm:react",
+        "target": "interfaces",
         "type": "static"
       },
       {
@@ -14114,6 +14114,11 @@
       {
         "source": "todo",
         "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "todo",
+        "target": "npm:recoil",
         "type": "static"
       },
       {
@@ -14443,6 +14448,16 @@
       {
         "source": "frontend-challenge",
         "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:react-icons",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:recoil",
         "type": "static"
       }
     ],
@@ -32632,5 +32647,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1745856844299
+  "computedAt": 1745862104782
 }
