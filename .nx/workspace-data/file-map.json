@@ -202,7 +202,7 @@
         },
         {
           "file": "libs/ui/src/index.ts",
-          "hash": "14234437165136588598"
+          "hash": "7313711663072464546"
         },
         {
           "file": "libs/ui/src/lib/button.spec.tsx",
@@ -214,6 +214,17 @@
         {
           "file": "libs/ui/src/lib/button.tsx",
           "hash": "15249866416407854031"
+        },
+        {
+          "file": "libs/ui/src/lib/checkbox.spec.tsx",
+          "hash": "15215541356037511497",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/checkbox.tsx",
+          "hash": "3023634910687603186"
         },
         {
           "file": "libs/ui/src/lib/input.spec.tsx",
@@ -253,17 +264,6 @@
           "deps": [
             "npm:react"
           ]
-        },
-        {
-          "file": "libs/ui/src/lib/ui.spec.tsx",
-          "hash": "7298740781061202243",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/ui.tsx",
-          "hash": "17199599676541674568"
         },
         {
           "file": "libs/ui/tsconfig.json",
