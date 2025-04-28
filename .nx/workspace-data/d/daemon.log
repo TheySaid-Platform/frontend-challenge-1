@@ -257,3 +257,36 @@
 [NX v20.8.1 Daemon Server] - 2025-04-28T00:11:11.409Z - Closed a connection. Number of open connections: 0
 [NX v20.8.1 Daemon Server] - 2025-04-28T00:11:11.410Z - [WATCHER]: Stopping the watcher for c:\Users\stsho\Desktop\job tests\frontend-challenge (outputs)
 [NX v20.8.1 Daemon Server] - 2025-04-28T00:11:11.422Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:18.011Z - Started listening on: \\.\pipe\nx\C:\Users\stsho\AppData\Local\Temp\dbc971d4b4d67ec3bd09\d.sock
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:18.017Z - [WATCHER]: Subscribed to changes within: c:\Users\stsho\Desktop\job tests\frontend-challenge (native)
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:18.034Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:18.042Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:18.098Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:18.099Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:18.100Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:18.104Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.338Z - Time taken for 'Load Nx Plugin: c:\Users\stsho\Desktop\job tests\frontend-challenge\node_modules\nx\src\plugins\package-json' 1226.0474999999997ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.495Z - Time taken for 'loadDefaultNxPlugins' 1385.6254999999996ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.807Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.807Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.807Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.824Z - Time taken for 'loadSpecifiedNxPlugins' 1699.8156ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.877Z - Time taken for 'build-project-configs' 36.483900000000176ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.979Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.982Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.983Z - Time taken for 'total for creating and serializing project graph' 1877.4253ms
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.984Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.984Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1877. Response time: 3.
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.990Z - [REQUEST]: Responding to the client. handleMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.990Z - Done responding to the client handleMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.990Z - Handled MULTI_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.998Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.998Z - Done responding to the client handleContextFileData
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:19.998Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:11:20.000Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:20:30.506Z - [WATCHER]: 0 file(s) created or restored, 17 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:20:30.515Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:20:30.547Z - [WATCHER]: 0 file(s) created or restored, 18 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:20:30.550Z - [WATCHER]: Stopping the watcher for c:\Users\stsho\Desktop\job tests\frontend-challenge (sources)
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:20:30.551Z - [WATCHER]: Stopping the watcher for c:\Users\stsho\Desktop\job tests\frontend-challenge (outputs)
+[NX v20.8.1 Daemon Server] - 2025-04-28T00:20:30.557Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"

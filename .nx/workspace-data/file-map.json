@@ -13,6 +13,41 @@
         "buildDepsTargetName": "build-deps",
         "typecheckTargetName": "typecheck"
       }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "devTargetName": "dev",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "name": "@nx/cypress/plugin",
+      "options": {
+        "targetName": "e2e",
+        "openTargetName": "open-cypress",
+        "componentTestingTargetName": "component-test",
+        "ciTargetName": "e2e-ci"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
     }
   ],
   "fileMap": {
@@ -38,8 +73,14 @@
           "file": "package.json",
           "hash": "17450907507949264764",
           "deps": [
+            "npm:@nx/eslint",
+            "npm:@nx/js",
             "npm:@nx/react",
+            "npm:@nx/web",
+            "npm:@swc/helpers",
+            "npm:@types/node",
             "npm:nx",
+            "npm:tslib",
             "npm:react",
             "npm:react-dom"
           ]
