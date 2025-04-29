@@ -2,10 +2,6 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { RecoilRoot } from 'recoil';
 import NewTodoForm from './new-todo-form';
-import { todoListState } from '@todo/recoil-store';
-import { Button, Input } from '@todo/ui';
-import { useSetRecoilState } from 'recoil';
-import { v4 as uuidv4 } from 'uuid';
 
 jest.mock('@todo/ui', () => ({
   Button: ({

@@ -1,9 +1,6 @@
-import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { RecoilRoot } from 'recoil';
 import TodoItem from './todo-item';
-import { todoListState } from '@todo/recoil-store';
-import { MdOutlineDelete } from 'react-icons/md';
 
 jest.mock('@todo/ui', () => ({
   Checkbox: ({

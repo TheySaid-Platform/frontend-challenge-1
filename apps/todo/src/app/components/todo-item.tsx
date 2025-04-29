@@ -1,7 +1,6 @@
 import { Todo } from '@todo/interfaces';
 import { todoListState } from '@todo/recoil-store';
 import { Checkbox } from '@todo/ui';
-import { useState } from 'react';
 import { MdOutlineDelete } from 'react-icons/md';
 import { useRecoilState } from 'recoil';
 

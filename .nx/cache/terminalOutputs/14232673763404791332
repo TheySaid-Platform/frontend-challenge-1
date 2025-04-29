@@ -1,0 +1,124 @@
+[2m> [22mvite
+
+
+  [32m[1mVITE[22m v6.3.3[39m  [2mready in [0m[1m2195[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m5:42:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/user/Desktop/salomon/frontend-challenge/libs/recoil-store/src/lib/recoil-store.ts[22m
+[2m5:43:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/user/Desktop/salomon/frontend-challenge/libs/recoil-store/src/lib/todo-list.ts:9:1: ERROR: Unexpected end of file
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/user/Desktop/salomon/frontend-challenge/libs/recoil-store/src/lib/todo-list.ts[39m:9:1
+[33m  
+  [33mUnexpected end of file[33m
+  7  |  });
+  8  |  
+  9  |  +
+     |   ^
+  [39m
+[2m5:43:16 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+C:/Users/user/Desktop/salomon/frontend-challenge/libs/recoil-store/src/lib/todo-list.ts:9:1: ERROR: Unexpected end of file[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/user/Desktop/salomon/frontend-challenge/libs/recoil-store/src/lib/todo-list.ts[39m:9:1
+[33m  
+  [33mUnexpected end of file[33m
+  7  |  });
+  8  |  
+  9  |  +
+     |   ^
+  [39m
+      at failureErrorWithLog (C:\Users\user\Desktop\salomon\frontend-challenge\node_modules\vite\node_modules\esbuild\lib\main.js:1477:15)
+      at C:\Users\user\Desktop\salomon\frontend-challenge\node_modules\vite\node_modules\esbuild\lib\main.js:756:50
+      at responseCallbacks.<computed> (C:\Users\user\Desktop\salomon\frontend-challenge\node_modules\vite\node_modules\esbuild\lib\main.js:623:9)
+      at handleIncomingPacket (C:\Users\user\Desktop\salomon\frontend-challenge\node_modules\vite\node_modules\esbuild\lib\main.js:678:12)
+      at Socket.readFromStdout (C:\Users\user\Desktop\salomon\frontend-challenge\node_modules\vite\node_modules\esbuild\lib\main.js:601:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m5:43:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:43:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m5:44:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:01:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:01:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:01 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:02 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+C:/Users/user/Desktop/salomon/frontend-challenge/libs/recoil-store/src/lib/todo-list.ts:10:28: ERROR: Expected "]" but found end of file[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/user/Desktop/salomon/frontend-challenge/libs/recoil-store/src/lib/todo-list.ts[39m:10:28
+[33m  
+  [33mExpected "]" but found end of file[33m
+  8  |    key: 'todoListState',
+  9  |    default: [],
+  10 |    effet_UNSTABLE: [persistAt
+     |                              ^
+  [39m
+      at failureErrorWithLog (C:\Users\user\Desktop\salomon\frontend-challenge\node_modules\vite\node_modules\esbuild\lib\main.js:1477:15)
+      at C:\Users\user\Desktop\salomon\frontend-challenge\node_modules\vite\node_modules\esbuild\lib\main.js:756:50
+      at responseCallbacks.<computed> (C:\Users\user\Desktop\salomon\frontend-challenge\node_modules\vite\node_modules\esbuild\lib\main.js:623:9)
+      at handleIncomingPacket (C:\Users\user\Desktop\salomon\frontend-challenge\node_modules\vite\node_modules\esbuild\lib\main.js:678:12)
+      at Socket.readFromStdout (C:\Users\user\Desktop\salomon\frontend-challenge\node_modules\vite\node_modules\esbuild\lib\main.js:601:7)
+      at Socket.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m6:02:02 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33mrecoil-persist[32m[39m
+[2m6:02:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m6:02:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m
+[2m6:02:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/app/components/todo-list.tsx, /src/styles.css?direct, /src/app/components/new-todo-form.tsx, /src/app/components/todo-item.tsx[22m

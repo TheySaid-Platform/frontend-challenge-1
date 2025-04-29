@@ -14221,6 +14221,11 @@
         "source": "recoil-store",
         "target": "interfaces",
         "type": "static"
+      },
+      {
+        "source": "recoil-store",
+        "target": "npm:recoil-persist",
+        "type": "static"
       }
     ],
     "interfaces": [
@@ -32868,5 +32873,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1745938941179
+  "computedAt": 1745940262809
 }
