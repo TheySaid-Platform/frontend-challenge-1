@@ -62,347 +62,6 @@
   ],
   "fileMap": {
     "projectFileMap": {
-      "frontend-challenge": [
-        {
-          "file": ".gitignore",
-          "hash": "4773001455920331160"
-        },
-        {
-          "file": ".prettierignore",
-          "hash": "17085498363870782104"
-        },
-        {
-          "file": ".prettierrc",
-          "hash": "6820402234827505055"
-        },
-        {
-          "file": ".vscode/mcp.json",
-          "hash": "10797071493091117447"
-        },
-        {
-          "file": ".vscode/settings.json",
-          "hash": "6628705003711673624"
-        },
-        {
-          "file": "eslint.config.mjs",
-          "hash": "1811848233931877075",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "jest.config.ts",
-          "hash": "9882362695153092473",
-          "deps": [
-            "npm:jest",
-            "npm:@nx/jest"
-          ]
-        },
-        {
-          "file": "jest.preset.js",
-          "hash": "7473220183190921152",
-          "deps": [
-            "npm:@nx/jest"
-          ]
-        },
-        {
-          "file": "nx.json",
-          "hash": "4709447975735116683"
-        },
-        {
-          "file": "package-lock.json",
-          "hash": "16952571347407749054"
-        },
-        {
-          "file": "package.json",
-          "hash": "11113759842827240319",
-          "deps": [
-            "npm:@babel/core",
-            "npm:@babel/preset-react",
-            "npm:@eslint/js",
-            "npm:@nx/cypress",
-            "npm:@nx/eslint",
-            "npm:@nx/eslint-plugin",
-            "npm:@nx/jest",
-            "npm:@nx/js",
-            "npm:@nx/react",
-            "npm:@nx/vite",
-            "npm:@nx/web",
-            "npm:@swc-node/register",
-            "npm:@swc/cli",
-            "npm:@swc/core",
-            "npm:@swc/helpers",
-            "npm:@testing-library/dom",
-            "npm:@testing-library/react",
-            "npm:@types/jest",
-            "npm:@types/node",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:@vitejs/plugin-react",
-            "npm:@vitest/ui",
-            "npm:autoprefixer",
-            "npm:babel-jest",
-            "npm:cypress",
-            "npm:eslint",
-            "npm:eslint-config-prettier",
-            "npm:eslint-plugin-cypress",
-            "npm:eslint-plugin-import",
-            "npm:eslint-plugin-jsx-a11y",
-            "npm:eslint-plugin-react",
-            "npm:eslint-plugin-react-hooks",
-            "npm:jest",
-            "npm:jest-environment-jsdom",
-            "npm:jest-environment-node",
-            "npm:jiti",
-            "npm:jsdom",
-            "npm:jsonc-eslint-parser",
-            "npm:nx",
-            "npm:postcss",
-            "npm:prettier",
-            "npm:tailwindcss",
-            "npm:ts-jest",
-            "npm:ts-node",
-            "npm:tslib",
-            "npm:typescript",
-            "npm:typescript-eslint",
-            "npm:vite",
-            "npm:vite-plugin-dts",
-            "npm:vitest",
-            "npm:ajv",
-            "npm:react",
-            "npm:react-dom",
-            "npm:react-icons",
-            "npm:recoil",
-            "npm:recoil-persist",
-            "npm:uuidv4"
-          ]
-        },
-        {
-          "file": "tsconfig.base.json",
-          "hash": "13422238639500439825"
-        }
-      ],
-      "interfaces": [
-        {
-          "file": "libs/interfaces/README.md",
-          "hash": "14585843268791799132"
-        },
-        {
-          "file": "libs/interfaces/eslint.config.mjs",
-          "hash": "15753094263503476341",
-          "deps": [
-            [
-              "npm:jsonc-eslint-parser",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/interfaces/jest.config.ts",
-          "hash": "5850404819112488424"
-        },
-        {
-          "file": "libs/interfaces/package.json",
-          "hash": "12212848060039145354",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "libs/interfaces/project.json",
-          "hash": "6283141825312520618"
-        },
-        {
-          "file": "libs/interfaces/src/index.ts",
-          "hash": "10274089219043024425"
-        },
-        {
-          "file": "libs/interfaces/src/lib/todo.spec.ts",
-          "hash": "9586111202040960845"
-        },
-        {
-          "file": "libs/interfaces/src/lib/todo.ts",
-          "hash": "11108307502501590054"
-        },
-        {
-          "file": "libs/interfaces/tsconfig.json",
-          "hash": "14706426506703178163"
-        },
-        {
-          "file": "libs/interfaces/tsconfig.lib.json",
-          "hash": "17512648156706774563"
-        },
-        {
-          "file": "libs/interfaces/tsconfig.spec.json",
-          "hash": "16260686058541983629"
-        }
-      ],
-      "todo": [
-        {
-          "file": "apps/todo/eslint.config.mjs",
-          "hash": "15438479497919083559",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/todo/index.html",
-          "hash": "10162261548227055694"
-        },
-        {
-          "file": "apps/todo/jest.config.ts",
-          "hash": "10222289006313689232"
-        },
-        {
-          "file": "apps/todo/postcss.config.js",
-          "hash": "15486281244187232437"
-        },
-        {
-          "file": "apps/todo/project.json",
-          "hash": "14487607027170885634"
-        },
-        {
-          "file": "apps/todo/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/todo/src/app/app.spec.tsx",
-          "hash": "1430275152403258875",
-          "deps": [
-            "npm:@testing-library/react",
-            "npm:recoil"
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/app.tsx",
-          "hash": "12419802639766184888",
-          "deps": [
-            "ui"
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/components/new-todo-form.spec.tsx",
-          "hash": "477487051404331673",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:recoil",
-            "recoil-store",
-            "ui",
-            "npm:uuid",
-            [
-              "npm:recoil",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/components/new-todo-form.tsx",
-          "hash": "16812690121562837866",
-          "deps": [
-            "interfaces",
-            "recoil-store",
-            "ui",
-            "npm:react",
-            "npm:recoil",
-            "npm:uuid"
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/components/todo-item.spec.tsx",
-          "hash": "11373415232357355705",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:recoil",
-            "recoil-store",
-            "npm:react-icons",
-            [
-              "npm:recoil",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/components/todo-item.tsx",
-          "hash": "11521917209640653287",
-          "deps": [
-            "interfaces",
-            "recoil-store",
-            "ui",
-            "npm:react",
-            "npm:react-icons",
-            "npm:recoil"
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/components/todo-list.spec.tsx",
-          "hash": "5603003075433321146",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react",
-            "npm:recoil",
-            "recoil-store"
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/components/todo-list.tsx",
-          "hash": "5193141630915512835",
-          "deps": [
-            "npm:recoil",
-            "recoil-store"
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/nx-welcome.tsx",
-          "hash": "9037022745836018742"
-        },
-        {
-          "file": "apps/todo/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/todo/src/main.tsx",
-          "hash": "2777930831515191502",
-          "deps": [
-            "npm:react",
-            "npm:react-dom",
-            "npm:recoil"
-          ]
-        },
-        {
-          "file": "apps/todo/src/styles.css",
-          "hash": "12149586269909729492"
-        },
-        {
-          "file": "apps/todo/tailwind.config.js",
-          "hash": "16449474197544728623",
-          "deps": [
-            "npm:@nx/react"
-          ]
-        },
-        {
-          "file": "apps/todo/tsconfig.app.json",
-          "hash": "1507241107143280598"
-        },
-        {
-          "file": "apps/todo/tsconfig.json",
-          "hash": "7245696343842452685"
-        },
-        {
-          "file": "apps/todo/tsconfig.spec.json",
-          "hash": "11082235439457521999"
-        },
-        {
-          "file": "apps/todo/vite.config.ts",
-          "hash": "9291387534162015523",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
       "todo-e2e": [
         {
           "file": "apps/todo-e2e/cypress.config.ts",
@@ -483,12 +142,8 @@
           "hash": "3071741591790538504"
         },
         {
-          "file": "libs/recoil-store/src/lib/recoil-store.ts",
-          "hash": "15657308415221115874"
-        },
-        {
           "file": "libs/recoil-store/src/lib/todo-list.ts",
-          "hash": "8908587079868608048",
+          "hash": "13876653387904605917",
           "deps": [
             "npm:recoil",
             "interfaces",
@@ -625,6 +280,339 @@
             "npm:vite",
             "npm:@vitejs/plugin-react",
             "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "interfaces": [
+        {
+          "file": "libs/interfaces/README.md",
+          "hash": "14585843268791799132"
+        },
+        {
+          "file": "libs/interfaces/eslint.config.mjs",
+          "hash": "15753094263503476341",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/interfaces/jest.config.ts",
+          "hash": "5850404819112488424"
+        },
+        {
+          "file": "libs/interfaces/package.json",
+          "hash": "12212848060039145354",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/interfaces/project.json",
+          "hash": "6283141825312520618"
+        },
+        {
+          "file": "libs/interfaces/src/index.ts",
+          "hash": "10274089219043024425"
+        },
+        {
+          "file": "libs/interfaces/src/lib/todo.spec.ts",
+          "hash": "9586111202040960845"
+        },
+        {
+          "file": "libs/interfaces/src/lib/todo.ts",
+          "hash": "11108307502501590054"
+        },
+        {
+          "file": "libs/interfaces/tsconfig.json",
+          "hash": "14706426506703178163"
+        },
+        {
+          "file": "libs/interfaces/tsconfig.lib.json",
+          "hash": "17512648156706774563"
+        },
+        {
+          "file": "libs/interfaces/tsconfig.spec.json",
+          "hash": "16260686058541983629"
+        }
+      ],
+      "frontend-challenge": [
+        {
+          "file": ".gitignore",
+          "hash": "4773001455920331160"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "17085498363870782104"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "6820402234827505055"
+        },
+        {
+          "file": ".vscode/mcp.json",
+          "hash": "10797071493091117447"
+        },
+        {
+          "file": ".vscode/settings.json",
+          "hash": "6628705003711673624"
+        },
+        {
+          "file": "eslint.config.mjs",
+          "hash": "1811848233931877075",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "9882362695153092473",
+          "deps": [
+            "npm:jest",
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "7473220183190921152",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "nx.json",
+          "hash": "4709447975735116683"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "2228397686797262955"
+        },
+        {
+          "file": "package.json",
+          "hash": "11113759842827240319",
+          "deps": [
+            "npm:@babel/core",
+            "npm:@babel/preset-react",
+            "npm:@eslint/js",
+            "npm:@nx/cypress",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/react",
+            "npm:@nx/vite",
+            "npm:@nx/web",
+            "npm:@swc-node/register",
+            "npm:@swc/cli",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@testing-library/dom",
+            "npm:@testing-library/react",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:@vitest/ui",
+            "npm:autoprefixer",
+            "npm:babel-jest",
+            "npm:cypress",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-cypress",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:jest",
+            "npm:jest-environment-jsdom",
+            "npm:jest-environment-node",
+            "npm:jiti",
+            "npm:jsdom",
+            "npm:jsonc-eslint-parser",
+            "npm:nx",
+            "npm:postcss",
+            "npm:prettier",
+            "npm:tailwindcss",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:tslib",
+            "npm:typescript",
+            "npm:typescript-eslint",
+            "npm:vite",
+            "npm:vite-plugin-dts",
+            "npm:vitest",
+            "npm:ajv",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-icons",
+            "npm:recoil",
+            "npm:recoil-persist",
+            "npm:uuidv4"
+          ]
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "13422238639500439825"
+        }
+      ],
+      "todo": [
+        {
+          "file": "apps/todo/eslint.config.mjs",
+          "hash": "15438479497919083559",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/todo/index.html",
+          "hash": "10162261548227055694"
+        },
+        {
+          "file": "apps/todo/jest.config.ts",
+          "hash": "10222289006313689232"
+        },
+        {
+          "file": "apps/todo/postcss.config.js",
+          "hash": "15486281244187232437"
+        },
+        {
+          "file": "apps/todo/project.json",
+          "hash": "14487607027170885634"
+        },
+        {
+          "file": "apps/todo/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/todo/src/app/app.spec.tsx",
+          "hash": "18398171506791055936",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:recoil"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/app.tsx",
+          "hash": "12419802639766184888",
+          "deps": [
+            "ui"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/components/new-todo-form.spec.tsx",
+          "hash": "3257457124798080180",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:recoil",
+            [
+              "npm:recoil",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/components/new-todo-form.tsx",
+          "hash": "16812690121562837866",
+          "deps": [
+            "interfaces",
+            "recoil-store",
+            "ui",
+            "npm:react",
+            "npm:recoil",
+            "npm:uuid"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/components/todo-item.spec.tsx",
+          "hash": "862074404219278001",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:recoil",
+            [
+              "npm:recoil",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/components/todo-item.tsx",
+          "hash": "15247418613671494955",
+          "deps": [
+            "interfaces",
+            "recoil-store",
+            "ui",
+            "npm:react-icons",
+            "npm:recoil"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/components/todo-list.spec.tsx",
+          "hash": "9444328254343929211",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:recoil"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/components/todo-list.tsx",
+          "hash": "5193141630915512835",
+          "deps": [
+            "npm:recoil",
+            "recoil-store"
+          ]
+        },
+        {
+          "file": "apps/todo/src/app/nx-welcome.tsx",
+          "hash": "9037022745836018742"
+        },
+        {
+          "file": "apps/todo/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/todo/src/main.tsx",
+          "hash": "2777930831515191502",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:recoil"
+          ]
+        },
+        {
+          "file": "apps/todo/src/styles.css",
+          "hash": "12149586269909729492"
+        },
+        {
+          "file": "apps/todo/tailwind.config.js",
+          "hash": "16449474197544728623",
+          "deps": [
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "apps/todo/tsconfig.app.json",
+          "hash": "1507241107143280598"
+        },
+        {
+          "file": "apps/todo/tsconfig.json",
+          "hash": "7245696343842452685"
+        },
+        {
+          "file": "apps/todo/tsconfig.spec.json",
+          "hash": "11082235439457521999"
+        },
+        {
+          "file": "apps/todo/vite.config.ts",
+          "hash": "9291387534162015523",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
             "npm:@nx/vite"
           ]
         }

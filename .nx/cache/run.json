@@ -1,21 +1,21 @@
 {
   "run": {
-    "command": "nx run todo:lint",
-    "startTime": "2025-04-29T15:15:16.193Z",
-    "endTime": "2025-04-29T15:16:10.116Z",
+    "command": "nx run recoil-store:lint",
+    "startTime": "2025-04-29T15:25:30.025Z",
+    "endTime": "2025-04-29T15:25:44.050Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "todo:lint",
+      "taskId": "recoil-store:lint",
       "target": "lint",
-      "projectName": "todo",
-      "hash": "385720535929567175",
-      "startTime": "2025-04-29T15:15:16.248Z",
-      "endTime": "2025-04-29T15:16:10.089Z",
+      "projectName": "recoil-store",
+      "hash": "3617435339632477424",
+      "startTime": "2025-04-29T15:25:30.044Z",
+      "endTime": "2025-04-29T15:25:44.047Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 0
+      "status": 1
     }
   ]
 }

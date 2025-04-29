@@ -1,0 +1,15 @@
+[2m> [22meslint .
+
+[0m[0m
+[0m[4mC:\Users\user\Desktop\salomon\frontend-challenge\libs\recoil-store\package.json[24m[0m
+[0m  [2m8:3[22m  [31merror[39m  The "recoil-store" project uses the following packages, but they are missing from "dependencies":[0m
+[0m    - recoil[0m
+[0m    - @todo/interfaces[0m
+[0m    - recoil-persist  [2m@nx/dependency-checks[22m[0m
+[0m[0m
+[0m[4mC:\Users\user\Desktop\salomon\frontend-challenge\libs\recoil-store\src\lib\todo-list.ts[24m[0m
+[0m  [2m1:16[22m  [33mwarning[39m  'SetterOrUpdater' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[31m[1m✖ 2 problems (1 error, 1 warning)[22m[39m[0m
+[0m[31m[1m[22m[39m[31m[1m  1 error and 0 warnings potentially fixable with the `--fix` option.[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
