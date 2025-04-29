@@ -38,7 +38,7 @@ describe('NewTodoForm component', () => {
         <NewTodoForm />
       </RecoilRoot>
     );
-    expect(screen.getByPlaceholderText('New task')).toBeTruthy();
+    expect(screen.getByPlaceholderText('New todo')).toBeTruthy();
     expect(screen.getByText('Add Item')).toBeTruthy();
   });
 
@@ -54,7 +54,7 @@ describe('NewTodoForm component', () => {
       </RecoilRoot>
     );
 
-    const input = screen.getByPlaceholderText('New task');
+    const input = screen.getByPlaceholderText('New todo');
     fireEvent.change(input, { target: { value: '' } });
     fireEvent.click(screen.getByText('Add Item'));
 
