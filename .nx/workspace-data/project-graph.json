@@ -1,5 +1,133 @@
 {
   "nodes": {
+    "recoil-store": {
+      "name": "recoil-store",
+      "type": "lib",
+      "data": {
+        "root": "libs/recoil-store",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "libs/recoil-store",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.mjs",
+              "{projectRoot}/eslint.config.mjs",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "npx eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "options": {
+              "cwd": "libs/recoil-store",
+              "env": {
+                "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"commonjs\",\"customConditions\":null}"
+              },
+              "command": "jest"
+            },
+            "metadata": {
+              "technologies": [
+                "jest"
+              ],
+              "description": "Run Jest Tests",
+              "help": {
+                "command": "npx jest --help",
+                "example": {
+                  "options": {
+                    "coverage": true
+                  }
+                }
+              }
+            },
+            "cache": true,
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}\\jest.preset.js",
+              {
+                "externalDependencies": [
+                  "jest"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}\\coverage\\libs\\recoil-store"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "@nx/js:tsc",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/libs/recoil-store",
+              "main": "libs/recoil-store/src/index.ts",
+              "tsConfig": "libs/recoil-store/tsconfig.lib.json",
+              "assets": [
+                "libs/recoil-store/*.md"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "default",
+              "^default"
+            ]
+          }
+        },
+        "name": "recoil-store",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "@todo/recoil-store",
+            "packageMain": "./src/index.js",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/recoil-store/src",
+        "projectType": "library",
+        "implicitDependencies": []
+      }
+    },
     "interfaces": {
       "name": "interfaces",
       "type": "lib",
@@ -14073,6 +14201,28 @@
     }
   },
   "dependencies": {
+    "recoil-store": [
+      {
+        "source": "recoil-store",
+        "target": "npm:jsonc-eslint-parser",
+        "type": "dynamic"
+      },
+      {
+        "source": "recoil-store",
+        "target": "npm:tslib",
+        "type": "static"
+      },
+      {
+        "source": "recoil-store",
+        "target": "npm:recoil",
+        "type": "static"
+      },
+      {
+        "source": "recoil-store",
+        "target": "interfaces",
+        "type": "static"
+      }
+    ],
     "interfaces": [
       {
         "source": "interfaces",
@@ -14130,6 +14280,11 @@
       },
       {
         "source": "todo",
+        "target": "recoil-store",
+        "type": "static"
+      },
+      {
+        "source": "todo",
         "target": "npm:react",
         "type": "static"
       },
@@ -14182,12 +14337,12 @@
       },
       {
         "source": "ui",
-        "target": "npm:@testing-library/react",
+        "target": "npm:react",
         "type": "static"
       },
       {
         "source": "ui",
-        "target": "npm:react",
+        "target": "npm:@testing-library/react",
         "type": "static"
       },
       {
@@ -14490,6 +14645,11 @@
       {
         "source": "frontend-challenge",
         "target": "npm:recoil",
+        "type": "static"
+      },
+      {
+        "source": "frontend-challenge",
+        "target": "npm:recoil-persist",
         "type": "static"
       },
       {
@@ -32703,5 +32863,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1745873017377
+  "computedAt": 1745929885643
 }

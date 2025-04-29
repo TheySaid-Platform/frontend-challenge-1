@@ -1,0 +1,10 @@
+[2m> [22mjest
+
+[1mNo tests found, exiting with code 1[22m
+Run with `--passWithNoTests` to exit with code 0
+In [1mC:\Users\user\Desktop\salomon\frontend-challenge\libs\recoil-store[22m
+  4 files checked.
+  testMatch: [33m**/?(*.)+(spec|test).[jt]s?(x)[39m - 0 matches
+  testPathIgnorePatterns: [33m\\node_modules\\[39m - 4 matches
+  testRegex:  - 0 matches
+Pattern:  - 0 matches
