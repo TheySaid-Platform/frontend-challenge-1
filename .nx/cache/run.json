@@ -1,65 +1,21 @@
 {
   "run": {
-    "command": "nx affected --target=test",
-    "startTime": "2025-04-29T12:22:41.911Z",
-    "endTime": "2025-04-29T12:24:22.108Z",
+    "command": "nx run todo:test",
+    "startTime": "2025-04-29T14:39:18.811Z",
+    "endTime": "2025-04-29T14:39:31.487Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "recoil-store:test",
-      "target": "test",
-      "projectName": "recoil-store",
-      "hash": "7168080899982298016",
-      "startTime": "2025-04-29T12:22:41.993Z",
-      "endTime": "2025-04-29T12:23:49.915Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
-      "taskId": "interfaces:test",
-      "target": "test",
-      "projectName": "interfaces",
-      "hash": "7485059128429802683",
-      "startTime": "2025-04-29T12:22:41.992Z",
-      "endTime": "2025-04-29T12:24:04.680Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
-      "taskId": "ui:test",
-      "target": "test",
-      "projectName": "ui",
-      "hash": "15800004325514107387",
-      "startTime": "2025-04-29T12:22:41.993Z",
-      "endTime": "2025-04-29T12:24:13.661Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "frontend-challenge:test",
-      "target": "test",
-      "projectName": "frontend-challenge",
-      "hash": "8084907370895491755",
-      "startTime": "2025-04-29T12:24:04.910Z",
-      "endTime": "2025-04-29T12:24:17.588Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
       "taskId": "todo:test",
       "target": "test",
       "projectName": "todo",
-      "hash": "9289071072131829304",
-      "startTime": "2025-04-29T12:23:50.054Z",
-      "endTime": "2025-04-29T12:24:21.522Z",
+      "hash": "10213864488066256504",
+      "startTime": "2025-04-29T14:39:18.831Z",
+      "endTime": "2025-04-29T14:39:31.477Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 1
+      "status": 0
     }
   ]
 }

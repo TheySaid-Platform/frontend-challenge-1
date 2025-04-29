@@ -1,17 +1,15 @@
-import { render } from '@testing-library/react';
-
+import { render, screen } from '@testing-library/react';
+import { RecoilRoot } from 'recoil';
 import App from './app';
 
 describe('App', () => {
-  it('should render successfully', () => {
-    const { baseElement } = render(<App />);
-    expect(baseElement).toBeTruthy();
-  });
-
-  it('should have a greeting as the title', () => {
-    const { getAllByText } = render(<App />);
-    expect(
-      getAllByText(new RegExp('Welcome todo', 'gi')).length > 0
-    ).toBeTruthy();
+  it('renders the app title', () => {
+    render(
+      <RecoilRoot>
+        <App />
+      </RecoilRoot>
+    );
+    const titleElement = screen.getByText('Todo App');
+    expect(titleElement.textContent).toBe('Todo App');
   });
 });

@@ -62,114 +62,6 @@
   ],
   "fileMap": {
     "projectFileMap": {
-      "interfaces": [
-        {
-          "file": "libs/interfaces/README.md",
-          "hash": "14585843268791799132"
-        },
-        {
-          "file": "libs/interfaces/eslint.config.mjs",
-          "hash": "15753094263503476341",
-          "deps": [
-            [
-              "npm:jsonc-eslint-parser",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/interfaces/jest.config.ts",
-          "hash": "5850404819112488424"
-        },
-        {
-          "file": "libs/interfaces/package.json",
-          "hash": "12212848060039145354",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "libs/interfaces/project.json",
-          "hash": "6283141825312520618"
-        },
-        {
-          "file": "libs/interfaces/src/index.ts",
-          "hash": "10274089219043024425"
-        },
-        {
-          "file": "libs/interfaces/src/lib/interfaces.spec.ts",
-          "hash": "15352518432832000820"
-        },
-        {
-          "file": "libs/interfaces/src/lib/interfaces.ts",
-          "hash": "1132233896262640427"
-        },
-        {
-          "file": "libs/interfaces/src/lib/todo.spec.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/interfaces/src/lib/todo.ts",
-          "hash": "3345160275604075789"
-        },
-        {
-          "file": "libs/interfaces/tsconfig.json",
-          "hash": "14706426506703178163"
-        },
-        {
-          "file": "libs/interfaces/tsconfig.lib.json",
-          "hash": "17512648156706774563"
-        },
-        {
-          "file": "libs/interfaces/tsconfig.spec.json",
-          "hash": "16260686058541983629"
-        }
-      ],
-      "todo-e2e": [
-        {
-          "file": "apps/todo-e2e/cypress.config.ts",
-          "hash": "10621447954187538089",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/todo-e2e/eslint.config.mjs",
-          "hash": "3599541132905828811",
-          "deps": [
-            "npm:eslint-plugin-cypress"
-          ]
-        },
-        {
-          "file": "apps/todo-e2e/project.json",
-          "hash": "16693062937902577218"
-        },
-        {
-          "file": "apps/todo-e2e/src/e2e/app.cy.ts",
-          "hash": "12238669561394778696"
-        },
-        {
-          "file": "apps/todo-e2e/src/fixtures/example.json",
-          "hash": "13882982864087580737"
-        },
-        {
-          "file": "apps/todo-e2e/src/support/app.po.ts",
-          "hash": "5364106453863571025"
-        },
-        {
-          "file": "apps/todo-e2e/src/support/commands.ts",
-          "hash": "6034007119807233486"
-        },
-        {
-          "file": "apps/todo-e2e/src/support/e2e.ts",
-          "hash": "14369563060992369541"
-        },
-        {
-          "file": "apps/todo-e2e/tsconfig.json",
-          "hash": "10574899838287769993"
-        }
-      ],
       "frontend-challenge": [
         {
           "file": ".gitignore",
@@ -290,6 +182,51 @@
           "hash": "13422238639500439825"
         }
       ],
+      "todo-e2e": [
+        {
+          "file": "apps/todo-e2e/cypress.config.ts",
+          "hash": "10621447954187538089",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/todo-e2e/eslint.config.mjs",
+          "hash": "3599541132905828811",
+          "deps": [
+            "npm:eslint-plugin-cypress"
+          ]
+        },
+        {
+          "file": "apps/todo-e2e/project.json",
+          "hash": "16693062937902577218"
+        },
+        {
+          "file": "apps/todo-e2e/src/e2e/app.cy.ts",
+          "hash": "12238669561394778696"
+        },
+        {
+          "file": "apps/todo-e2e/src/fixtures/example.json",
+          "hash": "13882982864087580737"
+        },
+        {
+          "file": "apps/todo-e2e/src/support/app.po.ts",
+          "hash": "5364106453863571025"
+        },
+        {
+          "file": "apps/todo-e2e/src/support/commands.ts",
+          "hash": "6034007119807233486"
+        },
+        {
+          "file": "apps/todo-e2e/src/support/e2e.ts",
+          "hash": "14369563060992369541"
+        },
+        {
+          "file": "apps/todo-e2e/tsconfig.json",
+          "hash": "10574899838287769993"
+        }
+      ],
       "recoil-store": [
         {
           "file": "libs/recoil-store/README.md",
@@ -379,23 +316,33 @@
         },
         {
           "file": "apps/todo/src/app/app.spec.tsx",
-          "hash": "11607763352866030851",
+          "hash": "18398171506791055936",
           "deps": [
-            "npm:@testing-library/react"
+            "npm:@testing-library/react",
+            "npm:recoil"
           ]
         },
         {
           "file": "apps/todo/src/app/app.tsx",
-          "hash": "18030020050441106557",
+          "hash": "12419802639766184888",
           "deps": [
             "ui"
           ]
         },
         {
           "file": "apps/todo/src/app/components/new-todo-form.spec.tsx",
-          "hash": "11399587502434178999",
+          "hash": "477487051404331673",
           "deps": [
-            "npm:@testing-library/react"
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:recoil",
+            "recoil-store",
+            "ui",
+            "npm:uuid",
+            [
+              "npm:recoil",
+              "dynamic"
+            ]
           ]
         },
         {
@@ -412,14 +359,22 @@
         },
         {
           "file": "apps/todo/src/app/components/todo-item.spec.tsx",
-          "hash": "7798161937155955756",
+          "hash": "11373415232357355705",
           "deps": [
-            "npm:@testing-library/react"
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:recoil",
+            "recoil-store",
+            "npm:react-icons",
+            [
+              "npm:recoil",
+              "dynamic"
+            ]
           ]
         },
         {
           "file": "apps/todo/src/app/components/todo-item.tsx",
-          "hash": "4621074473952816145",
+          "hash": "11521917209640653287",
           "deps": [
             "interfaces",
             "recoil-store",
@@ -431,9 +386,12 @@
         },
         {
           "file": "apps/todo/src/app/components/todo-list.spec.tsx",
-          "hash": "12088624519032786413",
+          "hash": "5603003075433321146",
           "deps": [
-            "npm:@testing-library/react"
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:recoil",
+            "recoil-store"
           ]
         },
         {
@@ -447,20 +405,6 @@
         {
           "file": "apps/todo/src/app/nx-welcome.tsx",
           "hash": "9037022745836018742"
-        },
-        {
-          "file": "apps/todo/src/app/pages/home.spec.tsx",
-          "hash": "62265037780132390",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/todo/src/app/pages/home.tsx",
-          "hash": "18003675356111600165",
-          "deps": [
-            "ui"
-          ]
         },
         {
           "file": "apps/todo/src/assets/.gitkeep",
@@ -508,6 +452,61 @@
           ]
         }
       ],
+      "interfaces": [
+        {
+          "file": "libs/interfaces/README.md",
+          "hash": "14585843268791799132"
+        },
+        {
+          "file": "libs/interfaces/eslint.config.mjs",
+          "hash": "15753094263503476341",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/interfaces/jest.config.ts",
+          "hash": "5850404819112488424"
+        },
+        {
+          "file": "libs/interfaces/package.json",
+          "hash": "12212848060039145354",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/interfaces/project.json",
+          "hash": "6283141825312520618"
+        },
+        {
+          "file": "libs/interfaces/src/index.ts",
+          "hash": "10274089219043024425"
+        },
+        {
+          "file": "libs/interfaces/src/lib/todo.spec.ts",
+          "hash": "9586111202040960845"
+        },
+        {
+          "file": "libs/interfaces/src/lib/todo.ts",
+          "hash": "11108307502501590054"
+        },
+        {
+          "file": "libs/interfaces/tsconfig.json",
+          "hash": "14706426506703178163"
+        },
+        {
+          "file": "libs/interfaces/tsconfig.lib.json",
+          "hash": "17512648156706774563"
+        },
+        {
+          "file": "libs/interfaces/tsconfig.spec.json",
+          "hash": "16260686058541983629"
+        }
+      ],
       "ui": [
         {
           "file": "libs/ui/.babelrc",
@@ -542,7 +541,7 @@
         },
         {
           "file": "libs/ui/src/lib/button.spec.tsx",
-          "hash": "5987176504765734216",
+          "hash": "12684897773156684099",
           "deps": [
             "npm:react",
             "npm:@testing-library/react"
@@ -554,7 +553,7 @@
         },
         {
           "file": "libs/ui/src/lib/checkbox.spec.tsx",
-          "hash": "7109499562404416851",
+          "hash": "9612662153076847068",
           "deps": [
             "npm:react",
             "npm:@testing-library/react"
@@ -566,8 +565,9 @@
         },
         {
           "file": "libs/ui/src/lib/input.spec.tsx",
-          "hash": "3432792234455729975",
+          "hash": "11670274544415436658",
           "deps": [
+            "npm:react",
             "npm:@testing-library/react"
           ]
         },
@@ -580,8 +580,9 @@
         },
         {
           "file": "libs/ui/src/lib/page-container.spec.tsx",
-          "hash": "4873982891968344241",
+          "hash": "11548874784290432066",
           "deps": [
+            "npm:react",
             "npm:@testing-library/react"
           ]
         },
@@ -591,8 +592,9 @@
         },
         {
           "file": "libs/ui/src/lib/title.spec.tsx",
-          "hash": "155800398431781552",
+          "hash": "4147711665693696813",
           "deps": [
+            "npm:react",
             "npm:@testing-library/react"
           ]
         },

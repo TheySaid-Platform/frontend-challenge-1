@@ -9,8 +9,6 @@ export function TodoItem(props: { todo: Todo }) {
   const { todo } = props;
   const { description, completed } = todo;
   const [todoList, setTodoList] = useRecoilState(todoListState);
-  const [isEditing, setIsEditing] = useState(false);
-  const [editInput, setEditInput] = useState(todo.description);
 
   const index = todoList.findIndex((listItem) => listItem.id === todo.id);
 
@@ -28,15 +26,6 @@ export function TodoItem(props: { todo: Todo }) {
     setTodoList(newList);
   };
 
-  const saveEdit = () => {
-    const newList = [...todoList];
-    newList[index] = {
-      ...todo,
-      description: editInput,
-    };
-    setTodoList(newList);
-    setIsEditing(false);
-  };
   return (
     <div className="w-full flex items-center justify-between p-4 my-2 px-2 rounded-md bg-pink-50">
       <div className="flex gap-4 items-center">

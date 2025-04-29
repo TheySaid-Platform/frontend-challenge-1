@@ -1,12 +1,14 @@
-import NxWelcome from './nx-welcome';
-import { Button, Input } from '@todo/ui';
-import Home from './pages/home';
+import { PageContainer, Title } from '@todo/ui';
+import TodoList from './components/todo-list';
+import NewTodoForm from './components/new-todo-form';
 
 export function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <PageContainer>
+      <Title>Todo App</Title>
+      <TodoList />
+      <NewTodoForm />
+    </PageContainer>
   );
 }
 

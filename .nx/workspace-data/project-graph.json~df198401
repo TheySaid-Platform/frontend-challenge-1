@@ -14270,22 +14270,12 @@
       },
       {
         "source": "todo",
-        "target": "npm:recoil",
-        "type": "static"
-      },
-      {
-        "source": "todo",
-        "target": "npm:recoil",
-        "type": "dynamic"
-      },
-      {
-        "source": "todo",
         "target": "ui",
         "type": "static"
       },
       {
         "source": "todo",
-        "target": "npm:react",
+        "target": "interfaces",
         "type": "static"
       },
       {
@@ -14295,12 +14285,17 @@
       },
       {
         "source": "todo",
-        "target": "npm:uuid",
+        "target": "npm:react",
         "type": "static"
       },
       {
         "source": "todo",
-        "target": "interfaces",
+        "target": "npm:recoil",
+        "type": "static"
+      },
+      {
+        "source": "todo",
+        "target": "npm:uuid",
         "type": "static"
       },
       {
@@ -32868,5 +32863,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1745937558710
+  "computedAt": 1745931636733
 }
