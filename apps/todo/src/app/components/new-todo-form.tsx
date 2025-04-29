@@ -30,12 +30,12 @@ export function NewTodoForm() {
   return (
     <div className="flex w-full gap-2 mt-4">
       <Input
-        placeholder="New task"
+        placeholder="New todo"
         onChange={(e) => setDescription(e.target.value)}
         value={description}
         onKeyDown={handleKeyDown}
       />
-      <Button onClick={addTodo}>Add Item</Button>
+      <Button onClick={addTodo}>Add todo</Button>
     </div>
   );
 }

@@ -62,6 +62,247 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "ui": [
+        {
+          "file": "libs/ui/.babelrc",
+          "hash": "15003411175763814189"
+        },
+        {
+          "file": "libs/ui/README.md",
+          "hash": "12278270776781370320"
+        },
+        {
+          "file": "libs/ui/eslint.config.mjs",
+          "hash": "15438479497919083559",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "libs/ui/jest.config.ts",
+          "hash": "777478369302049299"
+        },
+        {
+          "file": "libs/ui/package.json",
+          "hash": "17035363659359628777"
+        },
+        {
+          "file": "libs/ui/project.json",
+          "hash": "13171798609609806937"
+        },
+        {
+          "file": "libs/ui/src/index.ts",
+          "hash": "18144352575749635706"
+        },
+        {
+          "file": "libs/ui/src/lib/button.spec.tsx",
+          "hash": "12684897773156684099",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/button.tsx",
+          "hash": "1982002585577168217"
+        },
+        {
+          "file": "libs/ui/src/lib/checkbox.spec.tsx",
+          "hash": "9612662153076847068",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/checkbox.tsx",
+          "hash": "13866273852540280421"
+        },
+        {
+          "file": "libs/ui/src/lib/input.spec.tsx",
+          "hash": "11670274544415436658",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/input.tsx",
+          "hash": "1655450404602069825",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/page-container.spec.tsx",
+          "hash": "11548874784290432066",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/page-container.tsx",
+          "hash": "6970230454278252704"
+        },
+        {
+          "file": "libs/ui/src/lib/title.spec.tsx",
+          "hash": "4147711665693696813",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/title.tsx",
+          "hash": "18406754031272381287",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/tsconfig.json",
+          "hash": "8541254910312754380"
+        },
+        {
+          "file": "libs/ui/tsconfig.lib.json",
+          "hash": "4173294051959818085"
+        },
+        {
+          "file": "libs/ui/tsconfig.spec.json",
+          "hash": "7369127361304305024"
+        },
+        {
+          "file": "libs/ui/vite.config.ts",
+          "hash": "15378600815390975293",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "frontend-challenge": [
+        {
+          "file": ".gitignore",
+          "hash": "4773001455920331160"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "17085498363870782104"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "6820402234827505055"
+        },
+        {
+          "file": ".vscode/mcp.json",
+          "hash": "10797071493091117447"
+        },
+        {
+          "file": ".vscode/settings.json",
+          "hash": "6628705003711673624"
+        },
+        {
+          "file": "eslint.config.mjs",
+          "hash": "1811848233931877075",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "9882362695153092473",
+          "deps": [
+            "npm:jest",
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "7473220183190921152",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "nx.json",
+          "hash": "4709447975735116683"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "2228397686797262955"
+        },
+        {
+          "file": "package.json",
+          "hash": "11113759842827240319",
+          "deps": [
+            "npm:@babel/core",
+            "npm:@babel/preset-react",
+            "npm:@eslint/js",
+            "npm:@nx/cypress",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/react",
+            "npm:@nx/vite",
+            "npm:@nx/web",
+            "npm:@swc-node/register",
+            "npm:@swc/cli",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@testing-library/dom",
+            "npm:@testing-library/react",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:@vitest/ui",
+            "npm:autoprefixer",
+            "npm:babel-jest",
+            "npm:cypress",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-cypress",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:jest",
+            "npm:jest-environment-jsdom",
+            "npm:jest-environment-node",
+            "npm:jiti",
+            "npm:jsdom",
+            "npm:jsonc-eslint-parser",
+            "npm:nx",
+            "npm:postcss",
+            "npm:prettier",
+            "npm:tailwindcss",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:tslib",
+            "npm:typescript",
+            "npm:typescript-eslint",
+            "npm:vite",
+            "npm:vite-plugin-dts",
+            "npm:vitest",
+            "npm:ajv",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-icons",
+            "npm:recoil",
+            "npm:recoil-persist",
+            "npm:uuidv4"
+          ]
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "13422238639500439825"
+        }
+      ],
       "todo-e2e": [
         {
           "file": "apps/todo-e2e/cypress.config.ts",
@@ -105,6 +346,62 @@
         {
           "file": "apps/todo-e2e/tsconfig.json",
           "hash": "10574899838287769993"
+        }
+      ],
+      "recoil-store": [
+        {
+          "file": "libs/recoil-store/README.md",
+          "hash": "16249783116431006526"
+        },
+        {
+          "file": "libs/recoil-store/eslint.config.mjs",
+          "hash": "15753094263503476341",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/recoil-store/jest.config.ts",
+          "hash": "6600864290496396072"
+        },
+        {
+          "file": "libs/recoil-store/package.json",
+          "hash": "15299191515449183762",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/recoil-store/project.json",
+          "hash": "8628908093243819831"
+        },
+        {
+          "file": "libs/recoil-store/src/index.ts",
+          "hash": "3071741591790538504"
+        },
+        {
+          "file": "libs/recoil-store/src/lib/todo-list.ts",
+          "hash": "13876653387904605917",
+          "deps": [
+            "npm:recoil",
+            "interfaces",
+            "npm:recoil-persist"
+          ]
+        },
+        {
+          "file": "libs/recoil-store/tsconfig.json",
+          "hash": "14706426506703178163"
+        },
+        {
+          "file": "libs/recoil-store/tsconfig.lib.json",
+          "hash": "17512648156706774563"
+        },
+        {
+          "file": "libs/recoil-store/tsconfig.spec.json",
+          "hash": "16260686058541983629"
         }
       ],
       "todo": [
@@ -265,183 +562,6 @@
           ]
         }
       ],
-      "ui": [
-        {
-          "file": "libs/ui/.babelrc",
-          "hash": "15003411175763814189"
-        },
-        {
-          "file": "libs/ui/README.md",
-          "hash": "12278270776781370320"
-        },
-        {
-          "file": "libs/ui/eslint.config.mjs",
-          "hash": "15438479497919083559",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "libs/ui/jest.config.ts",
-          "hash": "777478369302049299"
-        },
-        {
-          "file": "libs/ui/package.json",
-          "hash": "17035363659359628777"
-        },
-        {
-          "file": "libs/ui/project.json",
-          "hash": "13171798609609806937"
-        },
-        {
-          "file": "libs/ui/src/index.ts",
-          "hash": "18144352575749635706"
-        },
-        {
-          "file": "libs/ui/src/lib/button.spec.tsx",
-          "hash": "12684897773156684099",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/button.tsx",
-          "hash": "1982002585577168217"
-        },
-        {
-          "file": "libs/ui/src/lib/checkbox.spec.tsx",
-          "hash": "9612662153076847068",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/checkbox.tsx",
-          "hash": "13866273852540280421"
-        },
-        {
-          "file": "libs/ui/src/lib/input.spec.tsx",
-          "hash": "11670274544415436658",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/input.tsx",
-          "hash": "1655450404602069825",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/page-container.spec.tsx",
-          "hash": "11548874784290432066",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/page-container.tsx",
-          "hash": "6970230454278252704"
-        },
-        {
-          "file": "libs/ui/src/lib/title.spec.tsx",
-          "hash": "4147711665693696813",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/title.tsx",
-          "hash": "18406754031272381287",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/ui/tsconfig.json",
-          "hash": "8541254910312754380"
-        },
-        {
-          "file": "libs/ui/tsconfig.lib.json",
-          "hash": "4173294051959818085"
-        },
-        {
-          "file": "libs/ui/tsconfig.spec.json",
-          "hash": "7369127361304305024"
-        },
-        {
-          "file": "libs/ui/vite.config.ts",
-          "hash": "15378600815390975293",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:vite-plugin-dts",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
-      "recoil-store": [
-        {
-          "file": "libs/recoil-store/README.md",
-          "hash": "16249783116431006526"
-        },
-        {
-          "file": "libs/recoil-store/eslint.config.mjs",
-          "hash": "15753094263503476341",
-          "deps": [
-            [
-              "npm:jsonc-eslint-parser",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/recoil-store/jest.config.ts",
-          "hash": "6600864290496396072"
-        },
-        {
-          "file": "libs/recoil-store/package.json",
-          "hash": "15299191515449183762",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "libs/recoil-store/project.json",
-          "hash": "8628908093243819831"
-        },
-        {
-          "file": "libs/recoil-store/src/index.ts",
-          "hash": "3071741591790538504"
-        },
-        {
-          "file": "libs/recoil-store/src/lib/todo-list.ts",
-          "hash": "13876653387904605917",
-          "deps": [
-            "npm:recoil",
-            "interfaces",
-            "npm:recoil-persist"
-          ]
-        },
-        {
-          "file": "libs/recoil-store/tsconfig.json",
-          "hash": "14706426506703178163"
-        },
-        {
-          "file": "libs/recoil-store/tsconfig.lib.json",
-          "hash": "17512648156706774563"
-        },
-        {
-          "file": "libs/recoil-store/tsconfig.spec.json",
-          "hash": "16260686058541983629"
-        }
-      ],
       "interfaces": [
         {
           "file": "libs/interfaces/README.md",
@@ -495,126 +615,6 @@
         {
           "file": "libs/interfaces/tsconfig.spec.json",
           "hash": "16260686058541983629"
-        }
-      ],
-      "frontend-challenge": [
-        {
-          "file": ".gitignore",
-          "hash": "4773001455920331160"
-        },
-        {
-          "file": ".prettierignore",
-          "hash": "17085498363870782104"
-        },
-        {
-          "file": ".prettierrc",
-          "hash": "6820402234827505055"
-        },
-        {
-          "file": ".vscode/mcp.json",
-          "hash": "10797071493091117447"
-        },
-        {
-          "file": ".vscode/settings.json",
-          "hash": "6628705003711673624"
-        },
-        {
-          "file": "eslint.config.mjs",
-          "hash": "1811848233931877075",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "jest.config.ts",
-          "hash": "9882362695153092473",
-          "deps": [
-            "npm:jest",
-            "npm:@nx/jest"
-          ]
-        },
-        {
-          "file": "jest.preset.js",
-          "hash": "7473220183190921152",
-          "deps": [
-            "npm:@nx/jest"
-          ]
-        },
-        {
-          "file": "nx.json",
-          "hash": "4709447975735116683"
-        },
-        {
-          "file": "package-lock.json",
-          "hash": "2228397686797262955"
-        },
-        {
-          "file": "package.json",
-          "hash": "11113759842827240319",
-          "deps": [
-            "npm:@babel/core",
-            "npm:@babel/preset-react",
-            "npm:@eslint/js",
-            "npm:@nx/cypress",
-            "npm:@nx/eslint",
-            "npm:@nx/eslint-plugin",
-            "npm:@nx/jest",
-            "npm:@nx/js",
-            "npm:@nx/react",
-            "npm:@nx/vite",
-            "npm:@nx/web",
-            "npm:@swc-node/register",
-            "npm:@swc/cli",
-            "npm:@swc/core",
-            "npm:@swc/helpers",
-            "npm:@testing-library/dom",
-            "npm:@testing-library/react",
-            "npm:@types/jest",
-            "npm:@types/node",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:@vitejs/plugin-react",
-            "npm:@vitest/ui",
-            "npm:autoprefixer",
-            "npm:babel-jest",
-            "npm:cypress",
-            "npm:eslint",
-            "npm:eslint-config-prettier",
-            "npm:eslint-plugin-cypress",
-            "npm:eslint-plugin-import",
-            "npm:eslint-plugin-jsx-a11y",
-            "npm:eslint-plugin-react",
-            "npm:eslint-plugin-react-hooks",
-            "npm:jest",
-            "npm:jest-environment-jsdom",
-            "npm:jest-environment-node",
-            "npm:jiti",
-            "npm:jsdom",
-            "npm:jsonc-eslint-parser",
-            "npm:nx",
-            "npm:postcss",
-            "npm:prettier",
-            "npm:tailwindcss",
-            "npm:ts-jest",
-            "npm:ts-node",
-            "npm:tslib",
-            "npm:typescript",
-            "npm:typescript-eslint",
-            "npm:vite",
-            "npm:vite-plugin-dts",
-            "npm:vitest",
-            "npm:ajv",
-            "npm:react",
-            "npm:react-dom",
-            "npm:react-icons",
-            "npm:recoil",
-            "npm:recoil-persist",
-            "npm:uuidv4"
-          ]
-        },
-        {
-          "file": "tsconfig.base.json",
-          "hash": "13422238639500439825"
         }
       ]
     },
