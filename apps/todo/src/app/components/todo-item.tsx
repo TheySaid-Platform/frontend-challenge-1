@@ -29,7 +29,7 @@ export function TodoItem(props: { todo: Todo }) {
     <div className="w-full flex items-center justify-between p-4 my-2 px-2 rounded-md bg-pink-50">
       <div className="flex gap-4 items-center">
         <Checkbox checked={completed} onChange={toggleComplete} />
-        <p>{description}</p>
+        <p className={`${completed ? 'line-through' : ''}`}>{description}</p>
       </div>
       <MdOutlineDelete
         className="text-gray-500 hover:text-red-500 cursor-pointer"

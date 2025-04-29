@@ -28,7 +28,7 @@ export function NewTodoForm() {
     }
   };
   return (
-    <div className="flex w-full gap-2">
+    <div className="flex w-full gap-2 mt-4">
       <Input
         placeholder="New task"
         onChange={(e) => setDescription(e.target.value)}
