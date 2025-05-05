@@ -1,4 +1,4 @@
-# frontend-challenge
+# frontend-challenge-1
 
 ## Tech to use
 - nx
@@ -18,4 +18,4 @@
 - Make it a complete application so that it is usable
 - All features of the tech stack should be used
 - Make it responsive
-- Fork this repository and submit your implementation
+- Fork this repository and submit your implementation. DONOT submit PR
