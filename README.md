@@ -4,7 +4,7 @@
 - nx
 - Tailwind CSS
 - React
-- RecoilJS
+- Jotai
 - Typescript
 
 ## Build a TODO app
